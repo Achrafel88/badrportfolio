@@ -14,14 +14,14 @@ export const Hero = () => {
     <section id="hero" className="relative h-screen w-full flex items-center justify-center overflow-hidden pt-24">
       <NeuralNetwork />
       <div className="container mx-auto px-6 z-10 text-center flex flex-col items-center">
-        {/* Profile Image - Static and Clean */}
+        {/* Profile Image - Optimized for Mobile */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
-          className="relative mb-8"
+          className="relative mb-8 md:mb-12"
         >
-          <div className="w-40 h-40 md:w-56 md:h-56 rounded-3xl overflow-hidden border border-foreground/10 bg-background/50 backdrop-blur-sm shadow-2xl">
+          <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 rounded-3xl overflow-hidden border border-foreground/10 bg-background/50 backdrop-blur-sm shadow-2xl">
             <Image 
               src="/me.png" 
               alt="Achraf El Hasnaoui" 
@@ -32,8 +32,8 @@ export const Hero = () => {
             />
           </div>
           {/* Subtle accent corner */}
-          <div className="absolute -bottom-2 -right-2 w-12 h-12 border-b-2 border-r-2 border-primary/50 rounded-br-2xl" />
-          <div className="absolute -top-2 -left-2 w-12 h-12 border-t-2 border-l-2 border-primary/50 rounded-tl-2xl" />
+          <div className="absolute -bottom-2 -right-2 w-10 h-10 md:w-12 md:h-12 border-b-2 border-r-2 border-primary/50 rounded-br-2xl" />
+          <div className="absolute -top-2 -left-2 w-10 h-10 md:w-12 md:h-12 border-t-2 border-l-2 border-primary/50 rounded-tl-2xl" />
         </motion.div>
 
         <motion.div
@@ -49,50 +49,53 @@ export const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-5xl md:text-8xl font-black tracking-tight mb-4 text-foreground"
+          className="text-4xl sm:text-5xl md:text-8xl font-black tracking-tight mb-4 text-foreground leading-[1.1]"
         >
-          {t.title} <span className="text-primary italic">{t.subtitle}</span>
+          {t.title} <span className="text-primary italic block md:inline">{t.subtitle}</span>
         </motion.h1>
 
         <motion.div
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-xl md:text-2xl font-light mb-8 max-w-2xl text-muted"
+          className="text-lg md:text-2xl font-light mb-8 max-w-2xl text-muted px-4"
         >
-          <span className="block text-primary font-bold mb-4 tracking-tight leading-tight">
+          <span className="block text-primary font-bold mb-3 md:mb-4 tracking-tight leading-tight">
             {t.tagline}
           </span>
-          {t.description}
-          <span className="block text-sm text-primary/70 mt-3 font-mono tracking-widest uppercase">{t.licence}</span>
+          <span className="text-sm md:text-lg">{t.description}</span>
+          <span className="block text-[10px] md:text-sm text-primary/70 mt-4 md:mt-6 font-mono tracking-widest uppercase border border-primary/20 py-1 px-4 rounded-full w-fit mx-auto">{t.licence}</span>
         </motion.div>
 
         <motion.div
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col md:flex-row gap-4 mb-12"
+          className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-12 w-full max-w-sm md:max-w-none px-6"
         >
           <a
             href="#projects"
-            className="px-8 py-4 bg-primary text-foreground rounded-full font-bold flex items-center gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/20 hover:-translate-y-1"
+            className="w-full sm:w-auto px-8 py-4 bg-primary text-foreground rounded-2xl md:rounded-full font-black flex items-center justify-center gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/20 hover:-translate-y-1 text-xs md:text-base uppercase tracking-widest"
           >
             {t.view_projects} <ArrowRight className="w-5 h-5 rtl:rotate-180" />
           </a>
-          <a
-            href="/Achraf_CV2.pdf"
-            download
-            className="px-8 py-4 glass text-foreground rounded-full font-bold border-foreground/20 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center gap-2"
-          >
-             {t.download_cv} <FileDown className="w-5 h-5" />
-          </a>
-          <a
-            href="https://wa.me/212604539887"
-            target="_blank"
-            className="px-8 py-4 glass text-foreground rounded-full font-bold border-foreground/20 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center gap-2"
-          >
-             {t.say_hello} <Globe className="w-5 h-5" />
-          </a>
+          
+          <div className="flex gap-3 w-full sm:w-auto">
+            <a
+              href="/Achraf_CV2.pdf"
+              download
+              className="flex-1 sm:flex-none px-4 md:px-8 py-4 glass text-foreground rounded-2xl md:rounded-full font-bold border-foreground/10 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center justify-center gap-2 text-xs md:text-base"
+            >
+               <FileDown className="w-4 h-4 md:w-5 md:h-5" /> {t.download_cv.split(' ')[1] || 'CV'}
+            </a>
+            <a
+              href="https://wa.me/212604539887"
+              target="_blank"
+              className="flex-1 sm:flex-none px-4 md:px-8 py-4 glass text-foreground rounded-2xl md:rounded-full font-bold border-foreground/10 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center justify-center gap-2 text-xs md:text-base"
+            >
+               <Globe className="w-4 h-4 md:w-5 md:h-5" /> Hello
+            </a>
+          </div>
         </motion.div>
 
         <motion.div
