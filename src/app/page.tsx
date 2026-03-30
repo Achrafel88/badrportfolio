@@ -8,7 +8,8 @@ import { About } from '@/components/sections/About';
 import { Projects } from '@/components/sections/Projects';
 import { Skills } from '@/components/sections/Skills';
 import { Contact } from '@/components/sections/Contact';
-import { BrainCircuit } from 'lucide-react';
+import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
+import { BrainCircuit, Github, Linkedin, Instagram, Mail } from 'lucide-react';
 
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/translations';
@@ -52,6 +53,7 @@ export default function Home() {
             <SectionDivider />
             <Contact />
             
+            <WhatsAppButton />
             <Footer locale={locale} />
           </motion.div>
         )}
@@ -227,5 +229,3 @@ const FooterSocial = ({ icon, href }: any) => (
     {icon}
   </motion.a>
 );
-
-import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
