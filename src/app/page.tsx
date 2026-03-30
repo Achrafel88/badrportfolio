@@ -9,7 +9,11 @@ import { Projects } from '@/components/sections/Projects';
 import { Skills } from '@/components/sections/Skills';
 import { Contact } from '@/components/sections/Contact';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
+<<<<<<< HEAD
 import { BrainCircuit, Github, Linkedin, Instagram, Mail } from 'lucide-react';
+=======
+import { BrainCircuit } from 'lucide-react';
+>>>>>>> 78eded7 (Add floating WhatsApp button with animation)
 
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/translations';
