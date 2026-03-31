@@ -73,11 +73,11 @@ export const Hero = () => {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-10 w-full max-w-[280px] sm:max-w-none px-4"
+          className="flex flex-col sm:flex-row items-center sm:justify-center gap-3 md:gap-4 mb-10 w-full max-w-[280px] sm:max-w-none px-4"
         >
           <a
             href="#projects"
-            className="w-full sm:w-auto px-6 py-4 bg-primary text-foreground rounded-2xl font-black flex items-center justify-center gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/20 hover:-translate-y-1 text-xs md:text-base uppercase tracking-widest"
+            className="w-full sm:w-fit px-6 py-4 bg-primary text-foreground rounded-2xl font-black flex items-center justify-center gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/20 hover:-translate-y-1 text-xs md:text-base uppercase tracking-widest"
           >
             {t.view_projects} <ArrowRight className="w-4 h-4 md:w-5 md:h-5 rtl:rotate-180" />
           </a>
