@@ -42,9 +42,9 @@ export const Navbar = () => {
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ delay: 0.5, duration: 1, ease: 'backOut' }}
-      className="fixed bottom-6 md:bottom-auto md:top-8 left-1/2 -translate-x-1/2 z-50 px-4 md:px-6 py-3 md:py-4 glass rounded-full flex items-center gap-4 md:gap-8 border-primary/20 shadow-2xl bg-background/50 backdrop-blur-2xl w-[90%] md:w-auto justify-between md:justify-start"
+      className="fixed bottom-6 md:bottom-auto md:top-8 left-1/2 -translate-x-1/2 z-50 px-3 md:px-6 py-2 md:py-4 glass rounded-full flex items-center gap-2 md:gap-8 border-primary/20 shadow-2xl bg-background/50 backdrop-blur-2xl w-max max-w-[calc(100vw-32px)] justify-between md:justify-start"
     >
-      <div className="flex items-center gap-2 md:gap-6 justify-around w-full md:w-auto">
+      <div className="flex items-center gap-1 md:gap-6 justify-around md:w-auto">
         {navItems.map((item, index) => (
           <motion.a
             key={index}
@@ -59,7 +59,8 @@ export const Navbar = () => {
               {item.icon}
             </span>
             
-            <span className="text-[8px] md:hidden font-bold uppercase tracking-tighter mt-1">{item.label}</span>
+            {/* Removed label on mobile for better space management */}
+            {/* <span className="text-[8px] md:hidden font-bold uppercase tracking-tighter mt-1">{item.label}</span> */}
 
             {/* Dynamic Underline - Desktop only for better performance */}
             {activeSection === item.id && (
@@ -77,25 +78,25 @@ export const Navbar = () => {
         ))}
       </div>
       
-      <div className="hidden md:block w-[1px] h-6 bg-foreground/20" />
+      <div className="w-[1px] h-6 bg-foreground/10 mx-1 md:mx-0" />
       
-      {/* Language Switcher - More compact for mobile */}
-      <div className="flex gap-1 md:gap-2 bg-foreground/5 p-1 rounded-full">
-        {['en', 'fr', 'ar'].map((lang) => (
-          <button
-            key={lang}
-            onClick={() => setLocale(lang as any)}
-            className={`text-[8px] md:text-[10px] w-6 h-6 md:w-8 md:h-8 flex items-center justify-center rounded-full font-black uppercase transition-all ${
-              locale === lang ? 'bg-primary text-foreground shadow-lg shadow-primary/30' : 'text-foreground/30 hover:text-foreground/60 hover:bg-foreground/5'
-            }`}
-          >
-            {lang}
-          </button>
-        ))}
-      </div>
+      {/* Compact Language Cycle Button */}
+      <button
+        onClick={() => {
+          const langs: ('en' | 'fr' | 'ar')[] = ['en', 'fr', 'ar'];
+          const currentIndex = langs.indexOf(locale);
+          const nextIndex = (currentIndex + 1) % langs.length;
+          setLocale(langs[nextIndex]);
+        }}
+        className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center rounded-full bg-primary text-foreground shadow-lg shadow-primary/20 font-black text-[10px] uppercase transition-all hover:scale-110 active:scale-95 border border-primary/20"
+      >
+        {locale}
+      </button>
 
       <div className="hidden md:block w-[1px] h-6 bg-foreground/20" />
-      <ThemeToggle />
+      <div className="scale-75 md:scale-100">
+        <ThemeToggle />
+      </div>
     </motion.nav>
   );
 };

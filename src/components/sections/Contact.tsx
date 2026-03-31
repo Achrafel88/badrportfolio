@@ -50,7 +50,7 @@ export const Contact = () => {
         }, 8000);
       } else {
         const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to send message');
+        throw new Error(errorData.details || errorData.error || 'Failed to send message');
       }
     } catch (err: any) {
       console.error('Contact form error:', err);
@@ -102,6 +102,8 @@ export const Contact = () => {
                 title={t.whatsapp}
                 value="+212 604 539 887"
                 href="https://wa.me/212604539887"
+                target="_blank"
+                rel="noopener noreferrer"
                 color="bg-green-500/10 text-green-500"
               />
               <div className="flex gap-4 mt-10 pt-6 border-t border-foreground/5">
