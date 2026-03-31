@@ -76,31 +76,31 @@ const LoadingScreen = ({ locale }: { locale: string }) => {
     <motion.div
       exit={{ y: -1000, opacity: 0 }}
       transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
-      className="fixed inset-0 z-100 flex flex-col items-center justify-center bg-background text-foreground"
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-background text-foreground overflow-hidden"
     >
-      <div className="relative flex flex-col items-center">
+      <div className="flex flex-col items-center justify-center px-6 w-full max-w-md">
         {/* Brain Logo Animation */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="relative mb-12"
+          className="relative mb-8 md:mb-12 flex items-center justify-center"
         >
           <motion.div
             animate={{ 
-              scale: [1, 1.1, 1],
-              opacity: [0.8, 1, 0.8],
-              filter: ["drop-shadow(0 0 10px rgba(99, 102, 241, 0.4))", "drop-shadow(0 0 25px rgba(99, 102, 241, 0.8))", "drop-shadow(0 0 10px rgba(99, 102, 241, 0.4))"]
+              scale: [1, 1.05, 1],
+              opacity: [0.9, 1, 0.9],
+              filter: ["drop-shadow(0 0 10px rgba(99, 102, 241, 0.3))", "drop-shadow(0 0 20px rgba(99, 102, 241, 0.6))", "drop-shadow(0 0 10px rgba(99, 102, 241, 0.3))"]
             }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            className="w-32 h-32 md:w-48 md:h-48 rounded-full flex items-center justify-center glass border border-primary/20"
+            className="w-24 h-24 md:w-48 md:h-48 rounded-full flex items-center justify-center glass border border-primary/20"
           >
-            <BrainCircuit className="w-20 h-20 md:w-28 md:h-28 text-primary" />
+            <BrainCircuit className="w-12 h-12 md:w-28 md:h-28 text-primary" />
           </motion.div>
           {/* Synaptic Flash effects */}
           <motion.div
             animate={{ 
-              opacity: [0, 1, 0],
-              scale: [0.8, 1.2, 0.8],
+              opacity: [0, 0.5, 0],
+              scale: [0.8, 1.3, 0.8],
             }}
             transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
             className="absolute inset-0 rounded-full bg-primary/20 blur-xl -z-10"
@@ -110,14 +110,14 @@ const LoadingScreen = ({ locale }: { locale: string }) => {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl font-black uppercase tracking-[0.3em] mb-4 text-primary"
+          className="text-2xl md:text-4xl font-black uppercase tracking-[0.2em] md:tracking-[0.3em] mb-3 md:mb-4 text-primary text-center"
         >
           {title}
         </motion.h2>
         <motion.p
           animate={{ opacity: [0.3, 1, 0.3] }}
           transition={{ duration: 1.5, repeat: Infinity }}
-          className="text-foreground/40 text-sm font-mono uppercase tracking-[0.5em]"
+          className="text-foreground/40 text-[10px] md:text-sm font-mono uppercase tracking-[0.3em] md:tracking-[0.5em] text-center"
         >
           {text}
         </motion.p>

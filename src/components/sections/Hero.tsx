@@ -11,7 +11,7 @@ export const Hero = () => {
   const t = translations[locale].hero;
 
   return (
-    <section id="hero" className="relative h-screen w-full flex items-center justify-center overflow-hidden pt-24">
+    <section id="hero" className="relative min-h-screen w-full flex items-center justify-center overflow-hidden pt-20 pb-12">
       <NeuralNetwork />
       <div className="container mx-auto px-6 z-10 text-center flex flex-col items-center">
         {/* Profile Image - Optimized for Mobile */}
@@ -19,9 +19,9 @@ export const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
-          className="relative mb-8 md:mb-12"
+          className="relative mb-6 md:mb-12"
         >
-          <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 rounded-3xl overflow-hidden border border-foreground/10 bg-background/50 backdrop-blur-sm shadow-2xl">
+          <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 rounded-[2rem] md:rounded-3xl overflow-hidden border-2 border-primary/20 bg-background/50 backdrop-blur-sm shadow-[0_0_30px_rgba(99,102,241,0.2)]">
             <Image 
               src="/me.png" 
               alt="Achraf El Hasnaoui" 
@@ -32,15 +32,15 @@ export const Hero = () => {
             />
           </div>
           {/* Subtle accent corner */}
-          <div className="absolute -bottom-2 -right-2 w-10 h-10 md:w-12 md:h-12 border-b-2 border-r-2 border-primary/50 rounded-br-2xl" />
-          <div className="absolute -top-2 -left-2 w-10 h-10 md:w-12 md:h-12 border-t-2 border-l-2 border-primary/50 rounded-tl-2xl" />
+          <div className="absolute -bottom-1 -right-1 w-8 h-8 md:w-12 md:h-12 border-b-2 border-r-2 border-primary/50 rounded-br-2xl" />
+          <div className="absolute -top-1 -left-1 w-8 h-8 md:w-12 md:h-12 border-t-2 border-l-2 border-primary/50 rounded-tl-2xl" />
         </motion.div>
 
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="mb-8 px-4 py-1 rounded-full border border-primary/30 bg-primary/10 backdrop-blur-md text-primary font-mono text-xs tracking-widest uppercase"
+          className="mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 backdrop-blur-md text-primary font-mono text-[10px] md:text-xs tracking-widest uppercase"
         >
           {t.status}
         </motion.div>
@@ -49,7 +49,7 @@ export const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl sm:text-5xl md:text-8xl font-black tracking-tight mb-4 text-foreground leading-[1.1]"
+          className="text-4xl sm:text-6xl md:text-8xl font-black tracking-tight mb-4 text-foreground leading-[1.05]"
         >
           {t.title} <span className="text-primary italic block md:inline">{t.subtitle}</span>
         </motion.h1>
@@ -58,42 +58,44 @@ export const Hero = () => {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-lg md:text-2xl font-light mb-8 max-w-2xl text-muted px-4"
+          className="text-base md:text-2xl font-light mb-8 max-w-2xl text-muted px-2"
         >
-          <span className="block text-primary font-bold mb-3 md:mb-4 tracking-tight leading-tight">
+          <span className="block text-primary font-bold mb-3 md:mb-4 tracking-tight leading-tight text-lg md:text-3xl">
             {t.tagline}
           </span>
-          <span className="text-sm md:text-lg">{t.description}</span>
-          <span className="block text-[10px] md:text-sm text-primary/70 mt-4 md:mt-6 font-mono tracking-widest uppercase border border-primary/20 py-1 px-4 rounded-full w-fit mx-auto">{t.licence}</span>
+          <span className="text-sm md:text-lg opacity-80">{t.description}</span>
+          <span className="block text-[9px] md:text-sm text-primary/70 mt-5 md:mt-8 font-mono tracking-[0.2em] uppercase border border-primary/20 py-1.5 px-5 rounded-full w-fit mx-auto bg-primary/5">
+            {t.licence}
+          </span>
         </motion.div>
 
         <motion.div
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-12 w-full max-w-sm md:max-w-none px-6"
+          className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-10 w-full max-w-[280px] sm:max-w-none px-4"
         >
           <a
             href="#projects"
-            className="w-full sm:w-auto px-8 py-4 bg-primary text-foreground rounded-2xl md:rounded-full font-black flex items-center justify-center gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/20 hover:-translate-y-1 text-xs md:text-base uppercase tracking-widest"
+            className="w-full sm:w-auto px-6 py-4 bg-primary text-foreground rounded-2xl font-black flex items-center justify-center gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/20 hover:-translate-y-1 text-xs md:text-base uppercase tracking-widest"
           >
-            {t.view_projects} <ArrowRight className="w-5 h-5 rtl:rotate-180" />
+            {t.view_projects} <ArrowRight className="w-4 h-4 md:w-5 md:h-5 rtl:rotate-180" />
           </a>
           
           <div className="flex gap-3 w-full sm:w-auto">
             <a
               href="/Achraf_CV2.pdf"
               download
-              className="flex-1 sm:flex-none px-4 md:px-8 py-4 glass text-foreground rounded-2xl md:rounded-full font-bold border-foreground/10 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center justify-center gap-2 text-xs md:text-base"
+              className="flex-1 sm:flex-none px-4 md:px-8 py-4 glass text-foreground rounded-2xl font-bold border-foreground/10 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center justify-center gap-2 text-xs md:text-base"
             >
-               <FileDown className="w-4 h-4 md:w-5 md:h-5" /> {t.download_cv.split(' ')[1] || 'CV'}
+               <FileDown className="w-4 h-4" /> {t.download_cv.split(' ')[1] || 'CV'}
             </a>
             <a
               href="https://wa.me/212604539887"
               target="_blank"
-              className="flex-1 sm:flex-none px-4 md:px-8 py-4 glass text-foreground rounded-2xl md:rounded-full font-bold border-foreground/10 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center justify-center gap-2 text-xs md:text-base"
+              className="flex-1 sm:flex-none px-4 md:px-8 py-4 glass text-foreground rounded-2xl font-bold border-foreground/10 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center justify-center gap-2 text-xs md:text-base"
             >
-               <Globe className="w-4 h-4 md:w-5 md:h-5" /> Hello
+               <Globe className="w-4 h-4" /> Hello
             </a>
           </div>
         </motion.div>

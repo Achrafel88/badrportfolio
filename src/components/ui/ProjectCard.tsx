@@ -44,10 +44,10 @@ export const ProjectCard = ({ title, description, tags, image, github, demo }: P
   return (
     <motion.div
       whileHover={{ y: -10 }}
-      className="group relative flex flex-col bg-background/50 backdrop-blur-xl rounded-[2.5rem] border border-foreground/5 overflow-hidden shadow-2xl h-full transition-all hover:border-primary/30"
+      className="group relative flex flex-col bg-background/50 backdrop-blur-xl rounded-[2rem] md:rounded-[2.5rem] border border-foreground/5 overflow-hidden shadow-2xl h-full transition-all hover:border-primary/30"
     >
       {/* Project Image Container */}
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative h-48 md:h-64 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
           style={{ backgroundImage: `url(${image})` }}
@@ -55,24 +55,24 @@ export const ProjectCard = ({ title, description, tags, image, github, demo }: P
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
         
         {/* Corner Icon */}
-        <div className="absolute top-6 right-6 p-3 rounded-2xl bg-background/80 backdrop-blur-md border border-foreground/10 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all z-20">
-          <Layers className="text-primary w-5 h-5" />
+        <div className="absolute top-4 right-4 md:top-6 md:right-6 p-2 md:p-3 rounded-xl md:rounded-2xl bg-background/80 backdrop-blur-md border border-foreground/10 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all z-20">
+          <Layers className="text-primary w-4 h-4 md:w-5 md:h-5" />
         </div>
       </div>
 
       {/* Content Container */}
-      <div className="flex-1 p-8 flex flex-col">
-        <h3 className="text-2xl font-black mb-3 tracking-tighter group-hover:text-primary transition-colors leading-tight">
+      <div className="flex-1 p-6 md:p-8 flex flex-col">
+        <h3 className="text-xl md:text-2xl font-black mb-2 md:mb-3 tracking-tighter group-hover:text-primary transition-colors leading-tight">
           {title}
         </h3>
         
-        <p className="text-foreground/60 dark:text-foreground/50 [data-theme='light']:text-indigo-950/70 mb-6 line-clamp-3 text-sm leading-relaxed font-medium">
+        <p className="text-foreground/60 dark:text-foreground/50 [data-theme='light']:text-indigo-950/70 mb-4 md:mb-6 line-clamp-3 text-xs md:text-sm leading-relaxed font-medium">
           {description}
         </p>
 
-        <div className="flex flex-wrap gap-2 mb-8">
+        <div className="flex flex-wrap gap-1.5 md:gap-2 mb-6 md:mb-8">
           {tags.map((tag, i) => (
-            <span key={i} className="px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[9px] font-black uppercase tracking-widest text-primary">
+            <span key={i} className="px-2 md:px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[8px] md:text-[9px] font-black uppercase tracking-widest text-primary">
               {tag}
             </span>
           ))}
@@ -84,9 +84,9 @@ export const ProjectCard = ({ title, description, tags, image, github, demo }: P
               <a
                 href={demo}
                 target="_blank"
-                className="px-5 py-2.5 bg-primary text-foreground rounded-xl font-black text-[10px] uppercase tracking-widest flex items-center gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/10"
+                className="px-4 md:px-5 py-2 md:py-2.5 bg-primary text-foreground rounded-xl font-black text-[9px] md:text-[10px] uppercase tracking-widest flex items-center gap-1.5 md:gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/10"
               >
-                <ExternalLink className="w-3.5 h-3.5" />
+                <ExternalLink className="w-3 h-3 md:w-3.5 md:h-3.5" />
                 Live
               </a>
             )}
@@ -94,9 +94,9 @@ export const ProjectCard = ({ title, description, tags, image, github, demo }: P
               <a
                 href={github}
                 target="_blank"
-                className="p-2.5 bg-foreground/5 border border-foreground/5 text-foreground/50 rounded-xl hover:bg-foreground hover:text-background transition-all"
+                className="p-2 md:p-2.5 bg-foreground/5 border border-foreground/5 text-foreground/50 rounded-xl hover:bg-foreground hover:text-background transition-all"
               >
-                <Github className="w-4 h-4" />
+                <Github className="w-3.5 h-3.5 md:w-4 md:h-4" />
               </a>
             )}
           </div>

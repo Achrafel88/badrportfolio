@@ -43,10 +43,10 @@ export const Skills = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="group relative p-1 rounded-[2.5rem] bg-foreground/5 hover:bg-gradient-to-br transition-all duration-500 overflow-hidden shadow-sm hover:shadow-2xl"
+                className="group relative p-1 rounded-[2rem] md:rounded-[2.5rem] bg-foreground/5 hover:bg-gradient-to-br transition-all duration-500 overflow-hidden shadow-sm hover:shadow-2xl"
                 style={{ '--tw-gradient-from': `${color}10`, '--tw-gradient-to': `${color}30` } as any}
               >
-                <div className="p-10 bg-background/90 backdrop-blur-xl rounded-[2.4rem] h-full flex flex-col items-center relative overflow-hidden">
+                <div className="p-8 md:p-10 bg-background/90 backdrop-blur-xl rounded-[1.9rem] md:rounded-[2.4rem] h-full flex flex-col items-center relative overflow-hidden">
                   {/* Decorative Glow */}
                   <div 
                     className="absolute -top-10 -right-10 w-32 h-32 blur-3xl opacity-0 group-hover:opacity-40 transition-opacity"
@@ -54,21 +54,21 @@ export const Skills = () => {
                   />
 
                   <div
-                    className="w-24 h-24 rounded-[2rem] flex items-center justify-center mb-10 transition-all duration-700 group-hover:scale-110 group-hover:rotate-[360deg]"
+                    className="w-16 h-16 md:w-24 md:h-24 rounded-2xl md:rounded-[2rem] flex items-center justify-center mb-6 md:mb-10 transition-all duration-700 group-hover:scale-110 group-hover:rotate-[360deg]"
                     style={{ backgroundColor: `${color}15`, color: color }}
                   >
-                    <Icon size={48} className="drop-shadow-lg" />
+                    <Icon className="w-8 h-8 md:w-12 md:h-12 drop-shadow-lg" />
                   </div>
 
-                  <h3 className="text-3xl font-black mb-6 text-center tracking-tighter uppercase">{category.name}</h3>
+                  <h3 className="text-xl md:text-3xl font-black mb-4 md:mb-6 text-center tracking-tighter uppercase">{category.name}</h3>
                   
                   {/* Skill Progress Ring or Bar */}
-                  <div className="w-full mb-10 relative">
-                    <div className="flex justify-between items-end mb-3">
-                      <span className="text-[10px] font-black uppercase tracking-widest text-foreground/40">Mastery Level</span>
-                      <span className="text-sm font-black text-primary font-mono">{level}%</span>
+                  <div className="w-full mb-8 md:mb-10 relative">
+                    <div className="flex justify-between items-end mb-2 md:mb-3">
+                      <span className="text-[8px] md:text-[10px] font-black uppercase tracking-widest text-foreground/40">Mastery Level</span>
+                      <span className="text-xs md:text-sm font-black text-primary font-mono">{level}%</span>
                     </div>
-                    <div className="w-full bg-foreground/5 h-3 rounded-full p-1 overflow-hidden">
+                    <div className="w-full bg-foreground/5 h-2 md:h-3 rounded-full p-0.5 md:p-1 overflow-hidden">
                       <motion.div
                         initial={{ width: 0 }}
                         whileInView={{ width: `${level}%` }}
