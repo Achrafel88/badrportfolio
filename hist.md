@@ -12141,3 +12141,3071 @@ individuals
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
  ~/Desktop/portfolio        no       /model Auto (Gemini  | ✖ 3 errors (F12 for
  (1505264*)                 sandbox  3)                     details)
+
+
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `bg-gradient-to-r` can be written as `bg-linear-to-r`", 
+       "startLineNumber": 11314,                                                     
+       "startColumn": 52,                                                            
+       "endLineNumber": 11314,                                                       
+       "endColumn": 68                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-96' applies the same CSS properties as 'w-96'.",               
+       "startLineNumber": 11324,                                                     
+       "startColumn": 53,                                                            
+       "endLineNumber": 11324,                                                       
+       "endColumn": 57,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11327,                                             
+               "startColumn": 56,                                                    
+               "endLineNumber": 11327,                                               
+               "endColumn": 60,                                                      
+               "message": "w-96",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'h-96' applies the same CSS properties as 'h-96'.",               
+       "startLineNumber": 11324,                                                     
+       "startColumn": 58,                                                            
+       "endLineNumber": 11324,                                                       
+       "endColumn": 62,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11327,                                             
+               "startColumn": 61,                                                    
+               "endLineNumber": 11327,                                               
+               "endColumn": 65,                                                      
+               "message": "h-96",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-full' applies the same CSS properties as                 
+   'rounded-full'.",                                                                 
+       "startLineNumber": 11325,                                                     
+       "startColumn": 8,                                                             
+       "endLineNumber": 11325,                                                       
+       "endColumn": 20,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11328,                                             
+               "startColumn": 9,                                                     
+               "endLineNumber": 11328,                                               
+               "endColumn": 21,                                                      
+               "message": "rounded-full",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'blur-[120px]' applies the same CSS properties as                 
+   'blur-[120px]'.",                                                                 
+       "startLineNumber": 11325,                                                     
+       "startColumn": 21,                                                            
+       "endLineNumber": 11325,                                                       
+       "endColumn": 33,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11328,                                             
+               "startColumn": 22,                                                    
+               "endLineNumber": 11328,                                               
+               "endColumn": 34,                                                      
+               "message": "blur-[120px]",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-96' applies the same CSS properties as 'w-96'.",               
+       "startLineNumber": 11327,                                                     
+       "startColumn": 56,                                                            
+       "endLineNumber": 11327,                                                       
+       "endColumn": 60,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11324,                                             
+               "startColumn": 53,                                                    
+               "endLineNumber": 11324,                                               
+               "endColumn": 57,                                                      
+               "message": "w-96",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'h-96' applies the same CSS properties as 'h-96'.",               
+       "startLineNumber": 11327,                                                     
+       "startColumn": 61,                                                            
+       "endLineNumber": 11327,                                                       
+       "endColumn": 65,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11324,                                             
+               "startColumn": 58,                                                    
+               "endLineNumber": 11324,                                               
+               "endColumn": 62,                                                      
+               "message": "h-96",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-full' applies the same CSS properties as                 
+   'rounded-full'.",                                                                 
+       "startLineNumber": 11328,                                                     
+       "startColumn": 9,                                                             
+       "endLineNumber": 11328,                                                       
+       "endColumn": 21,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11325,                                             
+               "startColumn": 8,                                                     
+               "endLineNumber": 11325,                                               
+               "endColumn": 20,                                                      
+               "message": "rounded-full",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'blur-[120px]' applies the same CSS properties as                 
+   'blur-[120px]'.",                                                                 
+       "startLineNumber": 11328,                                                     
+       "startColumn": 22,                                                            
+       "endLineNumber": 11328,                                                       
+       "endColumn": 34,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11325,                                             
+               "startColumn": 21,                                                    
+               "endLineNumber": 11325,                                               
+               "endColumn": 33,                                                      
+               "message": "blur-[120px]",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `h-[2px]` can be written as `h-0.5`",                   
+       "startLineNumber": 11570,                                                     
+       "startColumn": 60,                                                            
+       "endLineNumber": 11570,                                                       
+       "endColumn": 67                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `h-[2px]` can be written as `h-0.5`",                   
+       "startLineNumber": 11572,                                                     
+       "startColumn": 73,                                                            
+       "endLineNumber": 11572,                                                       
+       "endColumn": 80                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 11594,                                                     
+       "startColumn": 29,                                                            
+       "endLineNumber": 11594,                                                       
+       "endColumn": 36                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 11598,                                                     
+       "startColumn": 45,                                                            
+       "endLineNumber": 11598,                                                       
+       "endColumn": 52                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex-col' applies the same CSS properties as 'flex-col'.",       
+       "startLineNumber": 11757,                                                     
+       "startColumn": 27,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 27,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 35,                                                      
+               "message": "flex-col",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'sm:flex-row' applies the same CSS properties as 'sm:flex-row'.", 
+       "startLineNumber": 11757,                                                     
+       "startColumn": 36,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 36,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 47,                                                      
+               "message": "sm:flex-row",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-4' applies the same CSS properties as 'gap-3'.",             
+       "startLineNumber": 11757,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 53,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 53,                                                      
+               "message": "gap-3",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'mb-12' applies the same CSS properties as 'mb-12'.",             
+       "startLineNumber": 11757,                                                     
+       "startColumn": 54,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 59,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 63,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 68,                                                      
+               "message": "mb-12",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-full' applies the same CSS properties as 'w-full'.",           
+       "startLineNumber": 11757,                                                     
+       "startColumn": 60,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 66,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 69,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 75,                                                      
+               "message": "w-full",                                                  
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'max-w-xs' applies the same CSS properties as 'max-w-sm'.",       
+       "startLineNumber": 11757,                                                     
+       "startColumn": 67,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 75,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11760,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11760,                                               
+               "endColumn": 15,                                                      
+               "message": "max-w-sm",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'md:max-w-none' applies the same CSS properties as                
+   'md:max-w-none'.",                                                                
+       "startLineNumber": 11758,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11758,                                                       
+       "endColumn": 20,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11760,                                             
+               "startColumn": 16,                                                    
+               "endLineNumber": 11760,                                               
+               "endColumn": 29,                                                      
+               "message": "md:max-w-none",                                           
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex-col' applies the same CSS properties as 'flex-col'.",       
+       "startLineNumber": 11759,                                                     
+       "startColumn": 27,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 27,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 35,                                                      
+               "message": "flex-col",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'sm:flex-row' applies the same CSS properties as 'sm:flex-row'.", 
+       "startLineNumber": 11759,                                                     
+       "startColumn": 36,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 36,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 47,                                                      
+               "message": "sm:flex-row",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-3' applies the same CSS properties as 'gap-4'.",             
+       "startLineNumber": 11759,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 53,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 53,                                                      
+               "message": "gap-4",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'mb-12' applies the same CSS properties as 'mb-12'.",             
+       "startLineNumber": 11759,                                                     
+       "startColumn": 63,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 68,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 54,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 59,                                                      
+               "message": "mb-12",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-full' applies the same CSS properties as 'w-full'.",           
+       "startLineNumber": 11759,                                                     
+       "startColumn": 69,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 75,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 60,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 66,                                                      
+               "message": "w-full",                                                  
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'max-w-sm' applies the same CSS properties as 'max-w-xs'.",       
+       "startLineNumber": 11760,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11760,                                                       
+       "endColumn": 15,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 67,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 75,                                                      
+               "message": "max-w-xs",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'md:max-w-none' applies the same CSS properties as                
+   'md:max-w-none'.",                                                                
+       "startLineNumber": 11760,                                                     
+       "startColumn": 16,                                                            
+       "endLineNumber": 11760,                                                       
+       "endColumn": 29,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11758,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11758,                                               
+               "endColumn": 20,                                                      
+               "message": "md:max-w-none",                                           
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'py-4' applies the same CSS properties as 'py-4'.",               
+       "startLineNumber": 11764,                                                     
+       "startColumn": 29,                                                            
+       "endLineNumber": 11764,                                                       
+       "endColumn": 33,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11768,                                             
+               "startColumn": 46,                                                    
+               "endLineNumber": 11768,                                               
+               "endColumn": 50,                                                      
+               "message": "py-4",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-full' applies the same CSS properties as                 
+   'rounded-2xl'.",                                                                  
+       "startLineNumber": 11764,                                                     
+       "startColumn": 61,                                                            
+       "endLineNumber": 11764,                                                       
+       "endColumn": 73,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11769,                                               
+               "endColumn": 18,                                                      
+               "message": "rounded-2xl",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'font-bold' applies the same CSS properties as 'font-black'.",    
+       "startLineNumber": 11765,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11765,                                                       
+       "endColumn": 16,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 35,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 45,                                                      
+               "message": "font-black",                                              
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex' applies the same CSS properties as 'flex'.",               
+       "startLineNumber": 11765,                                                     
+       "startColumn": 17,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 21,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 46,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 50,                                                      
+               "message": "flex",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'items-center' applies the same CSS properties as                 
+   'items-center'.",                                                                 
+       "startLineNumber": 11765,                                                     
+       "startColumn": 22,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 34,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 51,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 63,                                                      
+               "message": "items-center",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'justify-center' applies the same CSS properties as               
+   'justify-center'.",                                                               
+       "startLineNumber": 11765,                                                     
+       "startColumn": 35,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 49,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 64,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 78,                                                      
+               "message": "justify-center",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11765,                                                     
+       "startColumn": 50,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 55,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11770,                                               
+               "endColumn": 12,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'transition-all' applies the same CSS properties as               
+   'transition-all'.",                                                               
+       "startLineNumber": 11766,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11766,                                                       
+       "endColumn": 21,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 33,                                                    
+               "endLineNumber": 11770,                                               
+               "endColumn": 47,                                                      
+               "message": "transition-all",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'shadow-lg' applies the same CSS properties as 'shadow-lg'.",     
+       "startLineNumber": 11766,                                                     
+       "startColumn": 22,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 31,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11770,                                               
+               "endColumn": 57,                                                      
+               "message": "shadow-lg",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'hover:-translate-y-1' applies the same CSS properties as         
+   'hover:-translate-y-1'.",                                                         
+       "startLineNumber": 11766,                                                     
+       "startColumn": 50,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 70,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11771,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11771,                                               
+               "endColumn": 27,                                                      
+               "message": "hover:-translate-y-1",                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'text-sm' applies the same CSS properties as 'text-xs'.",         
+       "startLineNumber": 11766,                                                     
+       "startColumn": 71,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 78,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11771,                                             
+               "startColumn": 28,                                                    
+               "endLineNumber": 11771,                                               
+               "endColumn": 35,                                                      
+               "message": "text-xs",                                                 
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'py-4' applies the same CSS properties as 'py-4'.",               
+       "startLineNumber": 11768,                                                     
+       "startColumn": 46,                                                            
+       "endLineNumber": 11768,                                                       
+       "endColumn": 50,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11764,                                             
+               "startColumn": 29,                                                    
+               "endLineNumber": 11764,                                               
+               "endColumn": 33,                                                      
+               "message": "py-4",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-2xl' applies the same CSS properties as                  
+   'rounded-full'.",                                                                 
+       "startLineNumber": 11769,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11769,                                                       
+       "endColumn": 18,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11764,                                             
+               "startColumn": 61,                                                    
+               "endLineNumber": 11764,                                               
+               "endColumn": 73,                                                      
+               "message": "rounded-full",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'font-black' applies the same CSS properties as 'font-bold'.",    
+       "startLineNumber": 11769,                                                     
+       "startColumn": 35,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 45,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11765,                                               
+               "endColumn": 16,                                                      
+               "message": "font-bold",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex' applies the same CSS properties as 'flex'.",               
+       "startLineNumber": 11769,                                                     
+       "startColumn": 46,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 50,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 17,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 21,                                                      
+               "message": "flex",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'items-center' applies the same CSS properties as                 
+   'items-center'.",                                                                 
+       "startLineNumber": 11769,                                                     
+       "startColumn": 51,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 63,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 22,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 34,                                                      
+               "message": "items-center",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'justify-center' applies the same CSS properties as               
+   'justify-center'.",                                                               
+       "startLineNumber": 11769,                                                     
+       "startColumn": 64,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 78,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 35,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 49,                                                      
+               "message": "justify-center",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11770,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11770,                                                       
+       "endColumn": 12,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 50,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 55,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'transition-all' applies the same CSS properties as               
+   'transition-all'.",                                                               
+       "startLineNumber": 11770,                                                     
+       "startColumn": 33,                                                            
+       "endLineNumber": 11770,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11766,                                               
+               "endColumn": 21,                                                      
+               "message": "transition-all",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'shadow-lg' applies the same CSS properties as 'shadow-lg'.",     
+       "startLineNumber": 11770,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11770,                                                       
+       "endColumn": 57,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 22,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 31,                                                      
+               "message": "shadow-lg",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'hover:-translate-y-1' applies the same CSS properties as         
+   'hover:-translate-y-1'.",                                                         
+       "startLineNumber": 11771,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11771,                                                       
+       "endColumn": 27,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 50,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 70,                                                      
+               "message": "hover:-translate-y-1",                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'text-xs' applies the same CSS properties as 'text-sm'.",         
+       "startLineNumber": 11771,                                                     
+       "startColumn": 28,                                                            
+       "endLineNumber": 11771,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 71,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 78,                                                      
+               "message": "text-sm",                                                 
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-3' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11786,                                                     
+       "startColumn": 32,                                                            
+       "endLineNumber": 11786,                                                       
+       "endColumn": 37,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11793,                                             
+               "startColumn": 61,                                                    
+               "endLineNumber": 11793,                                               
+               "endColumn": 66,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-3'.",             
+       "startLineNumber": 11793,                                                     
+       "startColumn": 61,                                                            
+       "endLineNumber": 11793,                                                       
+       "endColumn": 66,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11786,                                             
+               "startColumn": 32,                                                    
+               "endLineNumber": 11786,                                               
+               "endColumn": 37,                                                      
+               "message": "gap-3",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource":                                                                   
+   "/Users/aedev/Desktop/portfolio/src/components/sections/Hero.tsx",                
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 133,                                                       
+       "startColumn": 25,                                                            
+       "endLineNumber": 133,                                                         
+       "endColumn": 32                                                               
+   },{                                                                               
+       "resource":                                                                   
+   "/Users/aedev/Desktop/portfolio/src/components/sections/Hero.tsx",                
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `bg-gradient-to-b` can be written as `bg-linear-to-b`", 
+       "startLineNumber": 133,                                                       
+       "startColumn": 38,                                                            
+       "endLineNumber": 133,                                                         
+       "endColumn": 54                                                               
+   }]                                                                                
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+ ⠴ Hold tight, I'm crafting a masterpiece… (esc to cancel, 1s)       ? for shortcuts 
+─────────────────────────────────────────────────────────────────────────────────────
+ auto-accept edits shift+tab to manual
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+ >   Type your message or @path/to/file                                              
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ~/Desktop/portfolio       no      /model Auto (Gemini  | ✖ 4 errors (F12 for
+ (main*)                   sandbox 3)                     details)
+
+
+       "endLineNumber": 11314,                                                       
+       "endColumn": 68                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-96' applies the same CSS properties as 'w-96'.",               
+       "startLineNumber": 11324,                                                     
+       "startColumn": 53,                                                            
+       "endLineNumber": 11324,                                                       
+       "endColumn": 57,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11327,                                             
+               "startColumn": 56,                                                    
+               "endLineNumber": 11327,                                               
+               "endColumn": 60,                                                      
+               "message": "w-96",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'h-96' applies the same CSS properties as 'h-96'.",               
+       "startLineNumber": 11324,                                                     
+       "startColumn": 58,                                                            
+       "endLineNumber": 11324,                                                       
+       "endColumn": 62,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11327,                                             
+               "startColumn": 61,                                                    
+               "endLineNumber": 11327,                                               
+               "endColumn": 65,                                                      
+               "message": "h-96",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-full' applies the same CSS properties as                 
+   'rounded-full'.",                                                                 
+       "startLineNumber": 11325,                                                     
+       "startColumn": 8,                                                             
+       "endLineNumber": 11325,                                                       
+       "endColumn": 20,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11328,                                             
+               "startColumn": 9,                                                     
+               "endLineNumber": 11328,                                               
+               "endColumn": 21,                                                      
+               "message": "rounded-full",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'blur-[120px]' applies the same CSS properties as                 
+   'blur-[120px]'.",                                                                 
+       "startLineNumber": 11325,                                                     
+       "startColumn": 21,                                                            
+       "endLineNumber": 11325,                                                       
+       "endColumn": 33,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11328,                                             
+               "startColumn": 22,                                                    
+               "endLineNumber": 11328,                                               
+               "endColumn": 34,                                                      
+               "message": "blur-[120px]",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-96' applies the same CSS properties as 'w-96'.",               
+       "startLineNumber": 11327,                                                     
+       "startColumn": 56,                                                            
+       "endLineNumber": 11327,                                                       
+       "endColumn": 60,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11324,                                             
+               "startColumn": 53,                                                    
+               "endLineNumber": 11324,                                               
+               "endColumn": 57,                                                      
+               "message": "w-96",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'h-96' applies the same CSS properties as 'h-96'.",               
+       "startLineNumber": 11327,                                                     
+       "startColumn": 61,                                                            
+       "endLineNumber": 11327,                                                       
+       "endColumn": 65,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11324,                                             
+               "startColumn": 58,                                                    
+               "endLineNumber": 11324,                                               
+               "endColumn": 62,                                                      
+               "message": "h-96",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-full' applies the same CSS properties as                 
+   'rounded-full'.",                                                                 
+       "startLineNumber": 11328,                                                     
+       "startColumn": 9,                                                             
+       "endLineNumber": 11328,                                                       
+       "endColumn": 21,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11325,                                             
+               "startColumn": 8,                                                     
+               "endLineNumber": 11325,                                               
+               "endColumn": 20,                                                      
+               "message": "rounded-full",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'blur-[120px]' applies the same CSS properties as                 
+   'blur-[120px]'.",                                                                 
+       "startLineNumber": 11328,                                                     
+       "startColumn": 22,                                                            
+       "endLineNumber": 11328,                                                       
+       "endColumn": 34,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11325,                                             
+               "startColumn": 21,                                                    
+               "endLineNumber": 11325,                                               
+               "endColumn": 33,                                                      
+               "message": "blur-[120px]",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `h-[2px]` can be written as `h-0.5`",                   
+       "startLineNumber": 11570,                                                     
+       "startColumn": 60,                                                            
+       "endLineNumber": 11570,                                                       
+       "endColumn": 67                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `h-[2px]` can be written as `h-0.5`",                   
+       "startLineNumber": 11572,                                                     
+       "startColumn": 73,                                                            
+       "endLineNumber": 11572,                                                       
+       "endColumn": 80                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 11594,                                                     
+       "startColumn": 29,                                                            
+       "endLineNumber": 11594,                                                       
+       "endColumn": 36                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 11598,                                                     
+       "startColumn": 45,                                                            
+       "endLineNumber": 11598,                                                       
+       "endColumn": 52                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex-col' applies the same CSS properties as 'flex-col'.",       
+       "startLineNumber": 11757,                                                     
+       "startColumn": 27,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 27,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 35,                                                      
+               "message": "flex-col",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'sm:flex-row' applies the same CSS properties as 'sm:flex-row'.", 
+       "startLineNumber": 11757,                                                     
+       "startColumn": 36,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 36,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 47,                                                      
+               "message": "sm:flex-row",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-4' applies the same CSS properties as 'gap-3'.",             
+       "startLineNumber": 11757,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 53,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 53,                                                      
+               "message": "gap-3",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'mb-12' applies the same CSS properties as 'mb-12'.",             
+       "startLineNumber": 11757,                                                     
+       "startColumn": 54,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 59,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 63,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 68,                                                      
+               "message": "mb-12",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-full' applies the same CSS properties as 'w-full'.",           
+       "startLineNumber": 11757,                                                     
+       "startColumn": 60,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 66,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 69,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 75,                                                      
+               "message": "w-full",                                                  
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'max-w-xs' applies the same CSS properties as 'max-w-sm'.",       
+       "startLineNumber": 11757,                                                     
+       "startColumn": 67,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 75,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11760,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11760,                                               
+               "endColumn": 15,                                                      
+               "message": "max-w-sm",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'md:max-w-none' applies the same CSS properties as                
+   'md:max-w-none'.",                                                                
+       "startLineNumber": 11758,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11758,                                                       
+       "endColumn": 20,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11760,                                             
+               "startColumn": 16,                                                    
+               "endLineNumber": 11760,                                               
+               "endColumn": 29,                                                      
+               "message": "md:max-w-none",                                           
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex-col' applies the same CSS properties as 'flex-col'.",       
+       "startLineNumber": 11759,                                                     
+       "startColumn": 27,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 27,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 35,                                                      
+               "message": "flex-col",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'sm:flex-row' applies the same CSS properties as 'sm:flex-row'.", 
+       "startLineNumber": 11759,                                                     
+       "startColumn": 36,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 36,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 47,                                                      
+               "message": "sm:flex-row",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-3' applies the same CSS properties as 'gap-4'.",             
+       "startLineNumber": 11759,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 53,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 53,                                                      
+               "message": "gap-4",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'mb-12' applies the same CSS properties as 'mb-12'.",             
+       "startLineNumber": 11759,                                                     
+       "startColumn": 63,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 68,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 54,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 59,                                                      
+               "message": "mb-12",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-full' applies the same CSS properties as 'w-full'.",           
+       "startLineNumber": 11759,                                                     
+       "startColumn": 69,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 75,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 60,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 66,                                                      
+               "message": "w-full",                                                  
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'max-w-sm' applies the same CSS properties as 'max-w-xs'.",       
+       "startLineNumber": 11760,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11760,                                                       
+       "endColumn": 15,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 67,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 75,                                                      
+               "message": "max-w-xs",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'md:max-w-none' applies the same CSS properties as                
+   'md:max-w-none'.",                                                                
+       "startLineNumber": 11760,                                                     
+       "startColumn": 16,                                                            
+       "endLineNumber": 11760,                                                       
+       "endColumn": 29,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11758,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11758,                                               
+               "endColumn": 20,                                                      
+               "message": "md:max-w-none",                                           
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'py-4' applies the same CSS properties as 'py-4'.",               
+       "startLineNumber": 11764,                                                     
+       "startColumn": 29,                                                            
+       "endLineNumber": 11764,                                                       
+       "endColumn": 33,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11768,                                             
+               "startColumn": 46,                                                    
+               "endLineNumber": 11768,                                               
+               "endColumn": 50,                                                      
+               "message": "py-4",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-full' applies the same CSS properties as                 
+   'rounded-2xl'.",                                                                  
+       "startLineNumber": 11764,                                                     
+       "startColumn": 61,                                                            
+       "endLineNumber": 11764,                                                       
+       "endColumn": 73,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11769,                                               
+               "endColumn": 18,                                                      
+               "message": "rounded-2xl",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'font-bold' applies the same CSS properties as 'font-black'.",    
+       "startLineNumber": 11765,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11765,                                                       
+       "endColumn": 16,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 35,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 45,                                                      
+               "message": "font-black",                                              
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex' applies the same CSS properties as 'flex'.",               
+       "startLineNumber": 11765,                                                     
+       "startColumn": 17,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 21,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 46,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 50,                                                      
+               "message": "flex",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'items-center' applies the same CSS properties as                 
+   'items-center'.",                                                                 
+       "startLineNumber": 11765,                                                     
+       "startColumn": 22,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 34,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 51,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 63,                                                      
+               "message": "items-center",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'justify-center' applies the same CSS properties as               
+   'justify-center'.",                                                               
+       "startLineNumber": 11765,                                                     
+       "startColumn": 35,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 49,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 64,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 78,                                                      
+               "message": "justify-center",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11765,                                                     
+       "startColumn": 50,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 55,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11770,                                               
+               "endColumn": 12,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'transition-all' applies the same CSS properties as               
+   'transition-all'.",                                                               
+       "startLineNumber": 11766,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11766,                                                       
+       "endColumn": 21,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 33,                                                    
+               "endLineNumber": 11770,                                               
+               "endColumn": 47,                                                      
+               "message": "transition-all",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'shadow-lg' applies the same CSS properties as 'shadow-lg'.",     
+       "startLineNumber": 11766,                                                     
+       "startColumn": 22,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 31,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11770,                                               
+               "endColumn": 57,                                                      
+               "message": "shadow-lg",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'hover:-translate-y-1' applies the same CSS properties as         
+   'hover:-translate-y-1'.",                                                         
+       "startLineNumber": 11766,                                                     
+       "startColumn": 50,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 70,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11771,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11771,                                               
+               "endColumn": 27,                                                      
+               "message": "hover:-translate-y-1",                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'text-sm' applies the same CSS properties as 'text-xs'.",         
+       "startLineNumber": 11766,                                                     
+       "startColumn": 71,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 78,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11771,                                             
+               "startColumn": 28,                                                    
+               "endLineNumber": 11771,                                               
+               "endColumn": 35,                                                      
+               "message": "text-xs",                                                 
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'py-4' applies the same CSS properties as 'py-4'.",               
+       "startLineNumber": 11768,                                                     
+       "startColumn": 46,                                                            
+       "endLineNumber": 11768,                                                       
+       "endColumn": 50,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11764,                                             
+               "startColumn": 29,                                                    
+               "endLineNumber": 11764,                                               
+               "endColumn": 33,                                                      
+               "message": "py-4",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-2xl' applies the same CSS properties as                  
+   'rounded-full'.",                                                                 
+       "startLineNumber": 11769,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11769,                                                       
+       "endColumn": 18,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11764,                                             
+               "startColumn": 61,                                                    
+               "endLineNumber": 11764,                                               
+               "endColumn": 73,                                                      
+               "message": "rounded-full",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'font-black' applies the same CSS properties as 'font-bold'.",    
+       "startLineNumber": 11769,                                                     
+       "startColumn": 35,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 45,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11765,                                               
+               "endColumn": 16,                                                      
+               "message": "font-bold",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex' applies the same CSS properties as 'flex'.",               
+       "startLineNumber": 11769,                                                     
+       "startColumn": 46,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 50,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 17,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 21,                                                      
+               "message": "flex",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'items-center' applies the same CSS properties as                 
+   'items-center'.",                                                                 
+       "startLineNumber": 11769,                                                     
+       "startColumn": 51,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 63,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 22,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 34,                                                      
+               "message": "items-center",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'justify-center' applies the same CSS properties as               
+   'justify-center'.",                                                               
+       "startLineNumber": 11769,                                                     
+       "startColumn": 64,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 78,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 35,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 49,                                                      
+               "message": "justify-center",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11770,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11770,                                                       
+       "endColumn": 12,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 50,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 55,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'transition-all' applies the same CSS properties as               
+   'transition-all'.",                                                               
+       "startLineNumber": 11770,                                                     
+       "startColumn": 33,                                                            
+       "endLineNumber": 11770,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11766,                                               
+               "endColumn": 21,                                                      
+               "message": "transition-all",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'shadow-lg' applies the same CSS properties as 'shadow-lg'.",     
+       "startLineNumber": 11770,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11770,                                                       
+       "endColumn": 57,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 22,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 31,                                                      
+               "message": "shadow-lg",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'hover:-translate-y-1' applies the same CSS properties as         
+   'hover:-translate-y-1'.",                                                         
+       "startLineNumber": 11771,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11771,                                                       
+       "endColumn": 27,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 50,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 70,                                                      
+               "message": "hover:-translate-y-1",                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'text-xs' applies the same CSS properties as 'text-sm'.",         
+       "startLineNumber": 11771,                                                     
+       "startColumn": 28,                                                            
+       "endLineNumber": 11771,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 71,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 78,                                                      
+               "message": "text-sm",                                                 
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-3' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11786,                                                     
+       "startColumn": 32,                                                            
+       "endLineNumber": 11786,                                                       
+       "endColumn": 37,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11793,                                             
+               "startColumn": 61,                                                    
+               "endLineNumber": 11793,                                               
+               "endColumn": 66,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-3'.",             
+       "startLineNumber": 11793,                                                     
+       "startColumn": 61,                                                            
+       "endLineNumber": 11793,                                                       
+       "endColumn": 66,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11786,                                             
+               "startColumn": 32,                                                    
+               "endLineNumber": 11786,                                               
+               "endColumn": 37,                                                      
+               "message": "gap-3",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource":                                                                   
+   "/Users/aedev/Desktop/portfolio/src/components/sections/Hero.tsx",                
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 133,                                                       
+       "startColumn": 25,                                                            
+       "endLineNumber": 133,                                                         
+       "endColumn": 32                                                               
+   },{                                                                               
+       "resource":                                                                   
+   "/Users/aedev/Desktop/portfolio/src/components/sections/Hero.tsx",                
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `bg-gradient-to-b` can be written as `bg-linear-to-b`", 
+       "startLineNumber": 133,                                                       
+       "startColumn": 38,                                                            
+       "endLineNumber": 133,                                                         
+       "endColumn": 54                                                               
+   }]                                                                                
+✦ I will start by reading src/app/page.tsx to identify and resolve the merge conflict
+  markers that are causing parsing errors.
+
+╭───────────────────────────────────────────────────────────────────────────────╮
+│ ✓  ReadFile src/app/page.tsx                                                  │
+│                                                                               │
+╰───────────────────────────────────────────────────────────────────────────────╯
+
+ ⠋Trying to reach gemini-3-flash-preview (Attem…(esc to cancel, 24m        ? for
+                                                41s)                      shortcuts 
+─────────────────────────────────────────────────────────────────────────────────────
+ auto-accept edits shift+tab to manual
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+ > a                                                                                 
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ ~/Desktop/portfolio       no      /model Auto (Gemini  | ✖ 4 errors (F12 for
+ (main*)                   sandbox 3)                     details)
+       "severity": 4,                                                                
+       "message": "The class `h-[2px]` can be written as `h-0.5`",                   
+       "startLineNumber": 11570,                                                     
+       "startColumn": 60,                                                            
+       "endLineNumber": 11570,                                                       
+       "endColumn": 67                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `h-[2px]` can be written as `h-0.5`",                   
+       "startLineNumber": 11572,                                                     
+       "startColumn": 73,                                                            
+       "endLineNumber": 11572,                                                       
+       "endColumn": 80                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 11594,                                                     
+       "startColumn": 29,                                                            
+       "endLineNumber": 11594,                                                       
+       "endColumn": 36                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 11598,                                                     
+       "startColumn": 45,                                                            
+       "endLineNumber": 11598,                                                       
+       "endColumn": 52                                                               
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex-col' applies the same CSS properties as 'flex-col'.",       
+       "startLineNumber": 11757,                                                     
+       "startColumn": 27,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 27,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 35,                                                      
+               "message": "flex-col",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'sm:flex-row' applies the same CSS properties as 'sm:flex-row'.", 
+       "startLineNumber": 11757,                                                     
+       "startColumn": 36,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 36,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 47,                                                      
+               "message": "sm:flex-row",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-4' applies the same CSS properties as 'gap-3'.",             
+       "startLineNumber": 11757,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 53,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 53,                                                      
+               "message": "gap-3",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'mb-12' applies the same CSS properties as 'mb-12'.",             
+       "startLineNumber": 11757,                                                     
+       "startColumn": 54,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 59,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 63,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 68,                                                      
+               "message": "mb-12",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-full' applies the same CSS properties as 'w-full'.",           
+       "startLineNumber": 11757,                                                     
+       "startColumn": 60,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 66,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11759,                                             
+               "startColumn": 69,                                                    
+               "endLineNumber": 11759,                                               
+               "endColumn": 75,                                                      
+               "message": "w-full",                                                  
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'max-w-xs' applies the same CSS properties as 'max-w-sm'.",       
+       "startLineNumber": 11757,                                                     
+       "startColumn": 67,                                                            
+       "endLineNumber": 11757,                                                       
+       "endColumn": 75,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11760,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11760,                                               
+               "endColumn": 15,                                                      
+               "message": "max-w-sm",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'md:max-w-none' applies the same CSS properties as                
+   'md:max-w-none'.",                                                                
+       "startLineNumber": 11758,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11758,                                                       
+       "endColumn": 20,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11760,                                             
+               "startColumn": 16,                                                    
+               "endLineNumber": 11760,                                               
+               "endColumn": 29,                                                      
+               "message": "md:max-w-none",                                           
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex-col' applies the same CSS properties as 'flex-col'.",       
+       "startLineNumber": 11759,                                                     
+       "startColumn": 27,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 27,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 35,                                                      
+               "message": "flex-col",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'sm:flex-row' applies the same CSS properties as 'sm:flex-row'.", 
+       "startLineNumber": 11759,                                                     
+       "startColumn": 36,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 36,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 47,                                                      
+               "message": "sm:flex-row",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-3' applies the same CSS properties as 'gap-4'.",             
+       "startLineNumber": 11759,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 53,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 53,                                                      
+               "message": "gap-4",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'mb-12' applies the same CSS properties as 'mb-12'.",             
+       "startLineNumber": 11759,                                                     
+       "startColumn": 63,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 68,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 54,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 59,                                                      
+               "message": "mb-12",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'w-full' applies the same CSS properties as 'w-full'.",           
+       "startLineNumber": 11759,                                                     
+       "startColumn": 69,                                                            
+       "endLineNumber": 11759,                                                       
+       "endColumn": 75,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 60,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 66,                                                      
+               "message": "w-full",                                                  
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'max-w-sm' applies the same CSS properties as 'max-w-xs'.",       
+       "startLineNumber": 11760,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11760,                                                       
+       "endColumn": 15,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11757,                                             
+               "startColumn": 67,                                                    
+               "endLineNumber": 11757,                                               
+               "endColumn": 75,                                                      
+               "message": "max-w-xs",                                                
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'md:max-w-none' applies the same CSS properties as                
+   'md:max-w-none'.",                                                                
+       "startLineNumber": 11760,                                                     
+       "startColumn": 16,                                                            
+       "endLineNumber": 11760,                                                       
+       "endColumn": 29,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11758,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11758,                                               
+               "endColumn": 20,                                                      
+               "message": "md:max-w-none",                                           
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'py-4' applies the same CSS properties as 'py-4'.",               
+       "startLineNumber": 11764,                                                     
+       "startColumn": 29,                                                            
+       "endLineNumber": 11764,                                                       
+       "endColumn": 33,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11768,                                             
+               "startColumn": 46,                                                    
+               "endLineNumber": 11768,                                               
+               "endColumn": 50,                                                      
+               "message": "py-4",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-full' applies the same CSS properties as                 
+   'rounded-2xl'.",                                                                  
+       "startLineNumber": 11764,                                                     
+       "startColumn": 61,                                                            
+       "endLineNumber": 11764,                                                       
+       "endColumn": 73,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11769,                                               
+               "endColumn": 18,                                                      
+               "message": "rounded-2xl",                                             
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'font-bold' applies the same CSS properties as 'font-black'.",    
+       "startLineNumber": 11765,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11765,                                                       
+       "endColumn": 16,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 35,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 45,                                                      
+               "message": "font-black",                                              
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex' applies the same CSS properties as 'flex'.",               
+       "startLineNumber": 11765,                                                     
+       "startColumn": 17,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 21,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 46,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 50,                                                      
+               "message": "flex",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'items-center' applies the same CSS properties as                 
+   'items-center'.",                                                                 
+       "startLineNumber": 11765,                                                     
+       "startColumn": 22,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 34,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 51,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 63,                                                      
+               "message": "items-center",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'justify-center' applies the same CSS properties as               
+   'justify-center'.",                                                               
+       "startLineNumber": 11765,                                                     
+       "startColumn": 35,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 49,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11769,                                             
+               "startColumn": 64,                                                    
+               "endLineNumber": 11769,                                               
+               "endColumn": 78,                                                      
+               "message": "justify-center",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11765,                                                     
+       "startColumn": 50,                                                            
+       "endLineNumber": 11765,                                                       
+       "endColumn": 55,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11770,                                               
+               "endColumn": 12,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'transition-all' applies the same CSS properties as               
+   'transition-all'.",                                                               
+       "startLineNumber": 11766,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11766,                                                       
+       "endColumn": 21,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 33,                                                    
+               "endLineNumber": 11770,                                               
+               "endColumn": 47,                                                      
+               "message": "transition-all",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'shadow-lg' applies the same CSS properties as 'shadow-lg'.",     
+       "startLineNumber": 11766,                                                     
+       "startColumn": 22,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 31,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11770,                                             
+               "startColumn": 48,                                                    
+               "endLineNumber": 11770,                                               
+               "endColumn": 57,                                                      
+               "message": "shadow-lg",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'hover:-translate-y-1' applies the same CSS properties as         
+   'hover:-translate-y-1'.",                                                         
+       "startLineNumber": 11766,                                                     
+       "startColumn": 50,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 70,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11771,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11771,                                               
+               "endColumn": 27,                                                      
+               "message": "hover:-translate-y-1",                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'text-sm' applies the same CSS properties as 'text-xs'.",         
+       "startLineNumber": 11766,                                                     
+       "startColumn": 71,                                                            
+       "endLineNumber": 11766,                                                       
+       "endColumn": 78,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11771,                                             
+               "startColumn": 28,                                                    
+               "endLineNumber": 11771,                                               
+               "endColumn": 35,                                                      
+               "message": "text-xs",                                                 
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'py-4' applies the same CSS properties as 'py-4'.",               
+       "startLineNumber": 11768,                                                     
+       "startColumn": 46,                                                            
+       "endLineNumber": 11768,                                                       
+       "endColumn": 50,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11764,                                             
+               "startColumn": 29,                                                    
+               "endLineNumber": 11764,                                               
+               "endColumn": 33,                                                      
+               "message": "py-4",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'rounded-2xl' applies the same CSS properties as                  
+   'rounded-full'.",                                                                 
+       "startLineNumber": 11769,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11769,                                                       
+       "endColumn": 18,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11764,                                             
+               "startColumn": 61,                                                    
+               "endLineNumber": 11764,                                               
+               "endColumn": 73,                                                      
+               "message": "rounded-full",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'font-black' applies the same CSS properties as 'font-bold'.",    
+       "startLineNumber": 11769,                                                     
+       "startColumn": 35,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 45,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11765,                                               
+               "endColumn": 16,                                                      
+               "message": "font-bold",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'flex' applies the same CSS properties as 'flex'.",               
+       "startLineNumber": 11769,                                                     
+       "startColumn": 46,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 50,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 17,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 21,                                                      
+               "message": "flex",                                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'items-center' applies the same CSS properties as                 
+   'items-center'.",                                                                 
+       "startLineNumber": 11769,                                                     
+       "startColumn": 51,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 63,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 22,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 34,                                                      
+               "message": "items-center",                                            
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'justify-center' applies the same CSS properties as               
+   'justify-center'.",                                                               
+       "startLineNumber": 11769,                                                     
+       "startColumn": 64,                                                            
+       "endLineNumber": 11769,                                                       
+       "endColumn": 78,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 35,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 49,                                                      
+               "message": "justify-center",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11770,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11770,                                                       
+       "endColumn": 12,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11765,                                             
+               "startColumn": 50,                                                    
+               "endLineNumber": 11765,                                               
+               "endColumn": 55,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'transition-all' applies the same CSS properties as               
+   'transition-all'.",                                                               
+       "startLineNumber": 11770,                                                     
+       "startColumn": 33,                                                            
+       "endLineNumber": 11770,                                                       
+       "endColumn": 47,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 7,                                                     
+               "endLineNumber": 11766,                                               
+               "endColumn": 21,                                                      
+               "message": "transition-all",                                          
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'shadow-lg' applies the same CSS properties as 'shadow-lg'.",     
+       "startLineNumber": 11770,                                                     
+       "startColumn": 48,                                                            
+       "endLineNumber": 11770,                                                       
+       "endColumn": 57,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 22,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 31,                                                      
+               "message": "shadow-lg",                                               
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'hover:-translate-y-1' applies the same CSS properties as         
+   'hover:-translate-y-1'.",                                                         
+       "startLineNumber": 11771,                                                     
+       "startColumn": 7,                                                             
+       "endLineNumber": 11771,                                                       
+       "endColumn": 27,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 50,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 70,                                                      
+               "message": "hover:-translate-y-1",                                    
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'text-xs' applies the same CSS properties as 'text-sm'.",         
+       "startLineNumber": 11771,                                                     
+       "startColumn": 28,                                                            
+       "endLineNumber": 11771,                                                       
+       "endColumn": 35,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11766,                                             
+               "startColumn": 71,                                                    
+               "endLineNumber": 11766,                                               
+               "endColumn": 78,                                                      
+               "message": "text-sm",                                                 
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-3' applies the same CSS properties as 'gap-2'.",             
+       "startLineNumber": 11786,                                                     
+       "startColumn": 32,                                                            
+       "endLineNumber": 11786,                                                       
+       "endColumn": 37,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11793,                                             
+               "startColumn": 61,                                                    
+               "endLineNumber": 11793,                                               
+               "endColumn": 66,                                                      
+               "message": "gap-2",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource": "/Users/aedev/Desktop/portfolio/hist.md",                         
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "cssConflict",                                                        
+       "severity": 4,                                                                
+       "message": "'gap-2' applies the same CSS properties as 'gap-3'.",             
+       "startLineNumber": 11793,                                                     
+       "startColumn": 61,                                                            
+       "endLineNumber": 11793,                                                       
+       "endColumn": 66,                                                              
+       "relatedInformation": [                                                       
+           {                                                                         
+               "startLineNumber": 11786,                                             
+               "startColumn": 32,                                                    
+               "endLineNumber": 11786,                                               
+               "endColumn": 37,                                                      
+               "message": "gap-3",                                                   
+               "resource": "/Users/aedev/Desktop/portfolio/hist.md"                  
+           }                                                                         
+       ]                                                                             
+   },{                                                                               
+       "resource":                                                                   
+   "/Users/aedev/Desktop/portfolio/src/components/sections/Hero.tsx",                
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `w-[1px]` can be written as `w-px`",                    
+       "startLineNumber": 133,                                                       
+       "startColumn": 25,                                                            
+       "endLineNumber": 133,                                                         
+       "endColumn": 32                                                               
+   },{                                                                               
+       "resource":                                                                   
+   "/Users/aedev/Desktop/portfolio/src/components/sections/Hero.tsx",                
+       "owner": "tailwindcss-intellisense",                                          
+       "code": "suggestCanonicalClasses",                                            
+       "severity": 4,                                                                
+       "message": "The class `bg-gradient-to-b` can be written as `bg-linear-to-b`", 
+       "startLineNumber": 133,                                                       
+       "startColumn": 38,                                                            
+       "endLineNumber": 133,                                                         
+       "endColumn": 54                                                               
+   }]                                                                                
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+✦ I will start by reading src/app/page.tsx to identify and resolve the merge conflict
+  markers that are causing parsing errors.
+
+╭───────────────────────────────────────────────────────────────────────────────╮
+│ ✓  ReadFile src/app/page.tsx                                                  │
+│                                                                               │
+╰───────────────────────────────────────────────────────────────────────────────╯
+✦ I'll start by resolving the merge conflicts in src/app/page.tsx and applying the
+  recommended Tailwind CSS v4 canonical class updates to ensure the code is clean and
+  adheres to the latest standards.
+
+╭───────────────────────────────────────────────────────────────────────────────╮
+│ ✓  WriteFile Writing to src/app/page.tsx                                      │
+│                                                                               │
+│   9   import { Skills } from '@/components/sections/Skills';                  │
+│  10   import { Contact } from '@/components/sections/Contact';                │
+│  11   import { WhatsAppButton } from '@/components/ui/WhatsAppButton';        │
+│  12 - <<<<<<< HEAD                                                            │
+│  12   import { BrainCircuit, Github, Linkedin, Instagram, Mail } from         │
+│       'lucide-react';                                                         │
+│  14 - =======                                                                 │
+│  15 - import { BrainCircuit } from 'lucide-react';                            │
+│  16 - >>>>>>> 78eded7 (Add floating WhatsApp button with animation)           │
+│  13                                                                           │
+│  14   import { useLanguage } from '@/context/LanguageContext';                │
+│  15   import { translations } from '@/lib/translations';                      │
+│ ═════════════════════════════════════════════════════════════════════════════ │
+│  64                                                                           │
+│  65   const SectionDivider = () => (                                          │
+│  66     <div className="w-full flex justify-center py-12">                    │
+│  71 -     <div className="w-24 h-[1px] bg-gradient-to-r from-transparent      │
+│     via-primary/30 to-transparent" />                                         │
+│  67 +     <div className="w-24 h-px bg-linear-to-r from-transparent           │
+│     via-primary/30 to-transparent" />                                         │
+│  68     </div>                                                                │
+│  69   );                                                                      │
+│  70                                                                           │
+│  76       <motion.div                                                         │
+│  77         exit={{ y: -1000, opacity: 0 }}                                   │
+│  78         transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}          │
+│  83 -       className="fixed inset-0 z-[100] flex flex-col items-center       │
+│     justify-center bg-background text-foreground"                             │
+│  79 +       className="fixed inset-0 z-100 flex flex-col items-center         │
+│     justify-center bg-background text-foreground"                             │
+│  80       >                                                                   │
+│  81         <div className="relative flex flex-col items-center">             │
+│  82           {/* Brain Logo Animation */}                                    │
+│ ═════════════════════════════════════════════════════════════════════════════ │
+│ 148                 ease: "linear",                                           │
+│ 149                 repeatDelay: 2                                            │
+│ 150               }}                                                          │
+│ 155 -             className="absolute top-0 w-1/2 h-full bg-gradient-to-r     │
+│     from-transparent via-primary/10 to-transparent -skew-x-12                 │
+│     pointer-events-none"                                                      │
+│ 151 +             className="absolute top-0 w-1/2 h-full bg-linear-to-r       │
+│     from-transparent via-primary/10 to-transparent -skew-x-12                 │
+│     pointer-events-none"                                                      │
+│ 152             />                                                            │
+│ 153                                                                           │
+│ 154             {/* Static Border Glow */}                                    │
+╰───────────────────────────────────────────────────────────────────────────────╯
+✦ I'll now examine src/components/sections/About.tsx to address the Tailwind CSS v4
+  class suggestions and resolve the TypeScript any type warnings, ensuring the code
+  is both modern and type-safe.
+
+╭───────────────────────────────────────────────────────────────────────────────╮
+│ ✓  ReadFile src/components/sections/About.tsx                                 │
+│                                                                               │
+✦ I'll now update src/components/sections/About.tsx to include the recommended
+  Tailwind CSS v4 class changes and define proper TypeScript interfaces for the
+  timeline items and StatCard props, ensuring the code is both modern and type-safe.
+
+╭───────────────────────────────────────────────────────────────────────────────╮
+│ ✓  WriteFile Writing to src/components/sections/About.tsx                     │
+│                                                                               │
+│   6   import { useLanguage } from '@/context/LanguageContext';                │
+│   7   import { translations } from '@/lib/translations';                      │
+│   8                                                                           │
+│   9 + interface TimelineItem {                                                │
+│  10 +   date: string;                                                         │
+│  11 +   title: string;                                                        │
+│  12 +   subtitle: string;                                                     │
+│  13 +   description: string;                                                  │
+│  14 + }                                                                       │
+│  15 +                                                                         │
+│  16   export const About = () => {                                            │
+│  17     const { locale } = useLanguage();                                     │
+│  18     const t = translations[locale].about;                                 │
+│ ═════════════════════════════════════════════════════════════════════════════ │
+│  96             <div className="relative pl-8">                               │
+│  97               <motion.div                                                 │
+│  98                 style={{ scaleY, originY: 0 }}                            │
+│  92 -               className="absolute left-0 top-0 w-1 h-full               │
+│     bg-gradient-to-b from-primary via-secondary to-transparent rounded-full   │
+│     shadow-[0_0_15px_rgba(99,102,241,0.5)]"                                   │
+│ ═════════════════════════════════════════════════════════════════════════════ │
+│  99 +               className="absolute left-0 top-0 w-1 h-full               │
+│     bg-linear-to-b from-primary via-secondary to-transparent rounded-full     │
+│     shadow-[0_0_15px_rgba(99,102,241,0.5)]"                                   │
+│ 100               />                                                          │
+│ 101                                                                           │
+│ 102               <div className="space-y-16">                                │
+│  96 -               {t.timeline.map((item: any, index: number) => (           │
+│ ═════════════════════════════════════════════════════════════════════════════ │
+│ 103 +               {t.timeline.map((item: TimelineItem, index: number) => (  │
+│ 104                   <motion.div                                             │
+│ 105                     key={index}                                           │
+│ 106                     initial={{ opacity: 0, x: 50 }}                       │
+│ 109                     transition={{ delay: index * 0.2 }}                   │
+│ 110                     className="relative group"                            │
+│ 111                   >                                                       │
+│ 105 -                   <div className="absolute -left-[45px] top-0 p-3       │
+│     bg-background border border-foreground/10 rounded-full                    │
+│     group-hover:border-primary transition-colors text-foreground/50           │
+│     group-hover:text-primary z-10">                                           │
+│ ═════════════════════════════════════════════════════════════════════════════ │
+│ 112 +                   <div className="absolute -left-11.25 top-0 p-3        │
+│     bg-background border border-foreground/10 rounded-full                    │
+│     group-hover:border-primary transition-colors text-foreground/50           │
+│     group-hover:text-primary z-10">                                           │
+│ 113                       <GraduationCap />                                   │
+│ 114                     </div>                                                │
+│ 115                     <div className="p-8 glass rounded-3xl border          │
+│       border-foreground/5 group-hover:border-foreground/20 transition-all">   │
+│ ═════════════════════════════════════════════════════════════════════════════ │
+│ 128     );                                                                    │
+│ 129   };                                                                      │
+│ 130                                                                           │
+│ 124 - const StatCard = ({ label, value }: any) => (                           │
+│ ═════════════════════════════════════════════════════════════════════════════ │
+│ 131 + interface StatCardProps {                                               │
+│ 132 +   label: string;                                                        │
+│ 133 +   value: string;                                                        │
+│ 134 + }                                                                       │
+│ 135 +                                                                         │
+│ 136 + const StatCard = ({ label, value }: StatCardProps) => (                 │
+│ 137     <div className="p-6 glass rounded-3xl border border-foreground/5 flex │
+│       flex-col items-center">                                                 │
+│ 138      <span className="text-3xl font-black text-foreground">{value}</span> │
+│                                                                               │
+│ 139      <span className="text-xs text-foreground/30 uppercase                │
+│      tracking-widest font-mono text-center mt-2">{label}</span>               │
+╰───────────────────────────────────────────────────────────────────────────────╯
+✦ I'll now check src/components/sections/Hero.tsx to apply the recommended Tailwind
+  CSS v4 class updates, specifically changing w-[1px] to w-px and bg-gradient-to-b to
+  bg-linear-to-b on line 133.
+
+╭───────────────────────────────────────────────────────────────────────────────╮
+│ ✓  ReadFile src/components/sections/Hero.tsx                                  │
+│                                                                               │
+╰───────────────────────────────────────────────────────────────────────────────╯
+✦ I'll now update src/components/sections/Hero.tsx by replacing w-[1px] with w-px and
+  bg-gradient-to-b with bg-linear-to-b on line 133, ensuring the code adheres to the
+  latest Tailwind CSS v4 standards.
+
+╭───────────────────────────────────────────────────────────────────────────────╮
+│ ✓  WriteFile Writing to src/components/sections/Hero.tsx                      │
+│                                                                               │
+│ 127       transition={{ duration: 2, repeat: Infinity }}                      │
+│ 128      className="absolute bottom-10 left-1/2 -translate-x-1/2 flex         │
+│      flex-col items-center gap-2"                                             │
+│ 129     >                                                                     │
+│ 130 -     <div className="w-[1px] h-12 bg-gradient-to-b from-primary          │
+│     to-transparent" />                                                        │
+│ 130 +     <div className="w-px h-12 bg-linear-to-b from-primary               │
+│     to-transparent" />                                                        │
+│ 131       <span className="text-[10px] text-muted uppercase                   │
+│       tracking-[4px]">Scroll</span>                                           │
+│ 132     </motion.div>                                                         │
+│ 133   </section>                                                              │
+╰───────────────────────────────────────────────────────────────────────────────╯
+✦ I'll now run npm run build to verify that all the fixes, including the merge
+  conflict resolution and Tailwind CSS v4 class updates, have been correctly applied
+  and that the project builds successfully.
+
+╭───────────────────────────────────────────────────────────────────────────────╮
+│ ⊷  Shell npm run build [current working directory /Users/aedev/Desktop/portf… │
+│                                                                               │
+│   Creating an optimized production build ...                                  │
+│ ✓ Compiled successfully in 35.3s                                              │
+│   Running TypeScript  .                                                       │
+╰───────────────────────────────────────────────────────────────────────────────╯
+
+ ⠦ Converting coffee into code… (esc to cancel, 4h 9m 21s)           ? for shortcuts 
+─────────────────────────────────────────────────────────────────────────────────────
+ auto-accept edits shift+tab to manual
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+ > /model                                                                            
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ manage   Opens a dialog to configure the model
+ set      Set the model to use. Usage: /model set <model-name> [--persist]
+ ~/Desktop/portfolio       no      /model Auto (Gemini  | ✖ 4 errors (F12 for
+ (main*)                   sandbox 3)                     details)
+
+
+

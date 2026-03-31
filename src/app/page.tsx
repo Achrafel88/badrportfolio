@@ -9,11 +9,7 @@ import { Projects } from '@/components/sections/Projects';
 import { Skills } from '@/components/sections/Skills';
 import { Contact } from '@/components/sections/Contact';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
-<<<<<<< HEAD
 import { BrainCircuit, Github, Linkedin, Instagram, Mail } from 'lucide-react';
-=======
-import { BrainCircuit } from 'lucide-react';
->>>>>>> 78eded7 (Add floating WhatsApp button with animation)
 
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/translations';
@@ -68,7 +64,7 @@ export default function Home() {
 
 const SectionDivider = () => (
   <div className="w-full flex justify-center py-12">
-    <div className="w-24 h-[1px] bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+    <div className="w-24 h-px bg-linear-to-r from-transparent via-primary/30 to-transparent" />
   </div>
 );
 
@@ -80,7 +76,7 @@ const LoadingScreen = ({ locale }: { locale: string }) => {
     <motion.div
       exit={{ y: -1000, opacity: 0 }}
       transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
-      className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-background text-foreground"
+      className="fixed inset-0 z-100 flex flex-col items-center justify-center bg-background text-foreground"
     >
       <div className="relative flex flex-col items-center">
         {/* Brain Logo Animation */}
@@ -152,7 +148,7 @@ const Footer = ({ locale }: { locale: string }) => {
               ease: "linear",
               repeatDelay: 2
             }}
-            className="absolute top-0 w-1/2 h-full bg-gradient-to-r from-transparent via-primary/10 to-transparent -skew-x-12 pointer-events-none"
+            className="absolute top-0 w-1/2 h-full bg-linear-to-r from-transparent via-primary/10 to-transparent -skew-x-12 pointer-events-none"
           />
           
           {/* Static Border Glow */}

@@ -6,6 +6,13 @@ import { GraduationCap, Award, FileDown } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/translations';
 
+interface TimelineItem {
+  date: string;
+  title: string;
+  subtitle: string;
+  description: string;
+}
+
 export const About = () => {
   const { locale } = useLanguage();
   const t = translations[locale].about;
@@ -89,11 +96,11 @@ export const About = () => {
           <div className="relative pl-8">
             <motion.div
               style={{ scaleY, originY: 0 }}
-              className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-primary via-secondary to-transparent rounded-full shadow-[0_0_15px_rgba(99,102,241,0.5)]"
+              className="absolute left-0 top-0 w-1 h-full bg-linear-to-b from-primary via-secondary to-transparent rounded-full shadow-[0_0_15px_rgba(99,102,241,0.5)]"
             />
             
             <div className="space-y-16">
-              {t.timeline.map((item: any, index: number) => (
+              {t.timeline.map((item: TimelineItem, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: 50 }}
@@ -102,7 +109,7 @@ export const About = () => {
                   transition={{ delay: index * 0.2 }}
                   className="relative group"
                 >
-                  <div className="absolute -left-[45px] top-0 p-3 bg-background border border-foreground/10 rounded-full group-hover:border-primary transition-colors text-foreground/50 group-hover:text-primary z-10">
+                  <div className="absolute -left-11.25 top-0 p-3 bg-background border border-foreground/10 rounded-full group-hover:border-primary transition-colors text-foreground/50 group-hover:text-primary z-10">
                     <GraduationCap />
                   </div>
                   <div className="p-8 glass rounded-3xl border border-foreground/5 group-hover:border-foreground/20 transition-all">
@@ -121,7 +128,12 @@ export const About = () => {
   );
 };
 
-const StatCard = ({ label, value }: any) => (
+interface StatCardProps {
+  label: string;
+  value: string;
+}
+
+const StatCard = ({ label, value }: StatCardProps) => (
   <div className="p-6 glass rounded-3xl border border-foreground/5 flex flex-col items-center">
     <span className="text-3xl font-black text-foreground">{value}</span>
     <span className="text-xs text-foreground/30 uppercase tracking-widest font-mono text-center mt-2">{label}</span>
