@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/Navbar';
 import { CustomCursor } from '@/components/ui/CustomCursor';
 import { Hero } from '@/components/sections/Hero';
@@ -92,9 +93,15 @@ const LoadingScreen = ({ locale }: { locale: string }) => {
               filter: ["drop-shadow(0 0 10px rgba(99, 102, 241, 0.3))", "drop-shadow(0 0 20px rgba(99, 102, 241, 0.6))", "drop-shadow(0 0 10px rgba(99, 102, 241, 0.3))"]
             }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            className="w-24 h-24 md:w-48 md:h-48 rounded-full flex items-center justify-center glass border border-primary/20"
+            className="w-24 h-24 md:w-48 md:h-48 rounded-full flex items-center justify-center glass border border-primary/20 overflow-hidden"
           >
-            <BrainCircuit className="w-12 h-12 md:w-28 md:h-28 text-primary" />
+            <Image 
+              src="/logo.jpeg" 
+              alt="Logo" 
+              width={192} 
+              height={192} 
+              className="w-full h-full object-cover"
+            />
           </motion.div>
           {/* Synaptic Flash effects */}
           <motion.div
