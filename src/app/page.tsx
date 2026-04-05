@@ -171,17 +171,16 @@ const Footer = ({ locale }: { locale: string }) => {
                 className="text-4xl md:text-6xl font-black tracking-tighter mb-6 uppercase"
                 whileHover={{ scale: 1.02 }}
               >
-                Achraf <span className="text-primary italic">El Hasnaoui</span>
+                Badreddine <span className="text-primary italic">Ouakili</span>
               </motion.h2>
               <p className="text-foreground/50 text-lg md:text-xl leading-relaxed max-w-md">
                 {t.hero.tagline}
               </p>
               
               <div className="flex gap-4 mt-10">
-                <FooterSocial icon={<Github />} href="https://github.com/Achrafel88" />
-                <FooterSocial icon={<Linkedin />} href="https://www.linkedin.com/in/achraf-el-hasnaoui-3364a91b6/" />
-                <FooterSocial icon={<Instagram />} href="https://www.instagram.com/ae_deve/" />
-                <FooterSocial icon={<Mail />} href="mailto:aelhasnaoui88@gmail.com" />
+                <FooterSocial icon={<Github />} href="#" />
+                <FooterSocial icon={<Linkedin />} href="https://www.linkedin.com/in/badreddine-ouakili-08a82b290/" />
+                <FooterSocial icon={<Mail />} href="mailto:ouakilibader47@gmail.com" />
               </div>
             </div>
             

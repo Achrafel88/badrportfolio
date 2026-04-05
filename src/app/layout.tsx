@@ -6,8 +6,8 @@ import { LanguageProvider } from "@/context/LanguageContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Achraf El Hasnaoui | AI Engineer & Full Stack Developer",
-  description: "Portfolio of Achraf El Hasnaoui - Full Stack Developer | Data Scientist | AI Engineer. Unique, premium, and futuristic interactive experience.",
+  title: "Badreddine Ouakili | Full Stack Web Developer",
+  description: "Portfolio of Badreddine Ouakili - Full Stack Web Developer specializing in Laravel and React. Modern, high-performance web solutions.",
 };
 
 export const viewport: Viewport = {

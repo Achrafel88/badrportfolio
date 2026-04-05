@@ -83,7 +83,7 @@ export const About = () => {
               className="mt-8"
             >
               <a
-                href="/Achraf_CV2.pdf"
+                href="/bad.pdf"
                 download
                 className="w-fit px-8 py-4 bg-primary text-foreground rounded-full font-bold flex items-center gap-2 hover:bg-primary/80 transition-all shadow-lg shadow-primary/20 hover:-translate-y-1"
               >

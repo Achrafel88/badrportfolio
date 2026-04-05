@@ -23,8 +23,8 @@ export const Hero = () => {
         >
           <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 rounded-[2rem] md:rounded-3xl overflow-hidden border-2 border-primary/20 bg-background/50 backdrop-blur-sm shadow-[0_0_30px_rgba(99,102,241,0.2)]">
             <Image 
-              src="/me.png" 
-              alt="Achraf El Hasnaoui" 
+              src="/badr.png" 
+              alt="Badreddine Ouakili" 
               width={224} 
               height={224}
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
@@ -84,14 +84,14 @@ export const Hero = () => {
           
           <div className="flex gap-3 w-full sm:w-auto">
             <a
-              href="/Achraf_CV2.pdf"
+              href="/bad.pdf"
               download
               className="flex-1 sm:flex-none px-4 md:px-8 py-4 glass text-foreground rounded-2xl font-bold border-foreground/10 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center justify-center gap-2 text-xs md:text-base"
             >
                <FileDown className="w-4 h-4" /> {t.download_cv.split(' ')[1] || 'CV'}
             </a>
             <a
-              href="https://wa.me/212604539887"
+              href="https://wa.me/212681068395"
               target="_blank"
               className="flex-1 sm:flex-none px-4 md:px-8 py-4 glass text-foreground rounded-2xl font-bold border-foreground/10 hover:bg-foreground/10 transition-all hover:-translate-y-1 flex items-center justify-center gap-2 text-xs md:text-base"
             >
@@ -107,9 +107,9 @@ export const Hero = () => {
           className="flex gap-6"
         >
           {[
-            { icon: <Github />, href: "https://github.com/Achrafel88" },
-            { icon: <Linkedin />, href: "https://www.linkedin.com/in/achraf-el-hasnaoui-3364a91b6/" },
-            { icon: <Mail />, href: "mailto:aelhasnaoui88@gmail.com" },
+            { icon: <Github />, href: "#" },
+            { icon: <Linkedin />, href: "https://www.linkedin.com/in/badreddine-ouakili-08a82b290/" },
+            { icon: <Mail />, href: "mailto:ouakilibader47@gmail.com" },
           ].map((social, idx) => (
             <motion.a
               key={idx}

@@ -1,11 +1,42 @@
 'use client';
 import { motion } from 'framer-motion';
-import { Mail, MessageCircle, Linkedin, Github, Send, CheckCircle2, Loader2, Instagram } from 'lucide-react';
+import { Mail, MessageCircle, Linkedin, Github, Send, CheckCircle2, Loader2 } from 'lucide-react';
 import React, { useState } from 'react';
 import confetti from 'canvas-confetti';
 
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/translations';
+
+const ContactLink = ({ icon, title, value, href, color, ...props }: any) => (
+  <a href={href} {...props} className="flex items-center gap-4 md:gap-6 group p-3 md:p-4 rounded-2xl md:rounded-3xl transition-all hover:bg-foreground/[0.03]">
+    <div className={`p-3 md:p-4 rounded-xl md:rounded-2xl transition-all group-hover:scale-110 group-hover:shadow-lg ${color}`}>
+      {React.cloneElement(icon, { className: "w-5 h-5 md:w-6 md:h-6" })}
+    </div>
+    <div>
+      <h4 className="text-[9px] md:text-[10px] text-foreground/40 uppercase font-black tracking-[0.2em] mb-0.5 md:mb-1">{title}</h4>
+      <p className="text-base md:text-xl font-bold group-hover:text-primary transition-all tracking-tight">{value}</p>
+    </div>
+  </a>
+);
+
+const SocialIcon = ({ icon, href }: any) => (
+  <a href={href} target="_blank" className="p-3 md:p-4 rounded-xl md:rounded-2xl bg-foreground/[0.03] border border-foreground/5 text-foreground/60 hover:text-primary hover:bg-foreground/[0.06] hover:-translate-y-1 transition-all shadow-sm">
+    {React.cloneElement(icon, { className: "w-5 h-5 md:w-6 md:h-6" })}
+  </a>
+);
+
+const FormInput = ({ label, placeholder, type = 'text', name }: any) => (
+  <div className="flex flex-col gap-2 md:gap-3 group">
+    <label className="text-[10px] md:text-xs font-black text-foreground/40 uppercase tracking-[0.2em] ml-2 transition-colors group-focus-within:text-primary">{label}</label>
+    <input
+      name={name}
+      required
+      type={type}
+      placeholder={placeholder}
+      className="bg-foreground/[0.03] border-2 border-transparent rounded-full px-6 md:px-8 py-3 md:py-4 focus:outline-none focus:border-primary/50 focus:bg-background transition-all text-sm md:text-base text-foreground/80 shadow-inner"
+    />
+  </div>
+);
 
 export const Contact = () => {
   const { locale } = useLanguage();
@@ -36,7 +67,6 @@ export const Contact = () => {
 
       if (response.ok) {
         setIsSubmitted(true);
-        // Trigger confetti for a premium feel
         confetti({
           particleCount: 150,
           spread: 70,
@@ -44,7 +74,6 @@ export const Contact = () => {
           colors: ['#6366f1', '#ec4899', '#10b981']
         });
         
-        // Reset form after a delay
         setTimeout(() => {
           setIsSubmitted(false);
         }, 8000);
@@ -62,13 +91,11 @@ export const Contact = () => {
 
   return (
     <section id="contact" className="py-24 relative overflow-hidden bg-foreground/[0.01]">
-      {/* Dynamic Background Elements */}
       <div className="absolute inset-0 -z-10 bg-grid-pattern opacity-[0.05]" style={{ backgroundImage: 'linear-gradient(to right, #6366f110 1px, transparent 1px), linear-gradient(to bottom, #6366f110 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/10 rounded-full blur-[160px] -z-10 animate-pulse" />
 
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Contact Info */}
           <div className="relative">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
@@ -93,28 +120,26 @@ export const Contact = () => {
               <ContactLink
                 icon={<Mail />}
                 title={t.email_me}
-                value="aelhasnaoui88@gmail.com"
-                href="mailto:aelhasnaoui88@gmail.com"
+                value="ouakilibader47@gmail.com"
+                href="mailto:ouakilibader47@gmail.com"
                 color="bg-primary/10 text-primary"
               />
               <ContactLink
                 icon={<MessageCircle />}
                 title={t.whatsapp}
-                value="+212 604 539 887"
-                href="https://wa.me/212604539887"
+                value="+212 681 068 395"
+                href="https://wa.me/212681068395"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="bg-green-500/10 text-green-500"
               />
               <div className="flex gap-3 md:gap-4 mt-10 pt-6 border-t border-foreground/5">
-                <SocialIcon icon={<Linkedin />} href="https://www.linkedin.com/in/achraf-el-hasnaoui-3364a91b6/" />
-                <SocialIcon icon={<Github />} href="https://github.com/Achrafel88" />
-                <SocialIcon icon={<Instagram />} href="https://www.instagram.com/ae_deve/" />
+                <SocialIcon icon={<Linkedin />} href="https://www.linkedin.com/in/badreddine-ouakili-08a82b290/" />
+                <SocialIcon icon={<Github />} href="#" />
               </div>
             </div>
           </div>
 
-          {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -199,103 +224,3 @@ export const Contact = () => {
     </section>
   );
 };
-
-const ContactLink = ({ icon, title, value, href, color, ...props }: any) => (
-  <a href={href} {...props} className="flex items-center gap-4 md:gap-6 group p-3 md:p-4 rounded-2xl md:rounded-3xl transition-all hover:bg-foreground/[0.03]">
-    <div className={`p-3 md:p-4 rounded-xl md:rounded-2xl transition-all group-hover:scale-110 group-hover:shadow-lg ${color}`}>
-      {React.cloneElement(icon, { className: "w-5 h-5 md:w-6 md:h-6" })}
-    </div>
-    <div>
-      <h4 className="text-[9px] md:text-[10px] text-foreground/40 uppercase font-black tracking-[0.2em] mb-0.5 md:mb-1">{title}</h4>
-      <p className="text-base md:text-xl font-bold group-hover:text-primary transition-all tracking-tight">{value}</p>
-    </div>
-  </a>
-);
-
-const SocialIcon = ({ icon, href }: any) => (
-  <a href={href} target="_blank" className="p-3 md:p-4 rounded-xl md:rounded-2xl bg-foreground/[0.03] border border-foreground/5 text-foreground/60 hover:text-primary hover:bg-foreground/[0.06] hover:-translate-y-1 transition-all shadow-sm">
-    {React.cloneElement(icon, { className: "w-5 h-5 md:w-6 md:h-6" })}
-  </a>
-);
-
-const FormInput = ({ label, placeholder, type = 'text', name }: any) => (
-  <div className="flex flex-col gap-2 md:gap-3 group">
-    <label className="text-[10px] md:text-xs font-black text-foreground/40 uppercase tracking-[0.2em] ml-2 transition-colors group-focus-within:text-primary">{label}</label>
-    <input
-      name={name}
-      required
-      type={type}
-      placeholder={placeholder}
-      className="bg-foreground/[0.03] border-2 border-transparent rounded-full px-6 md:px-8 py-3 md:py-4 focus:outline-none focus:border-primary/50 focus:bg-background transition-all text-sm md:text-base text-foreground/80 shadow-inner"
-    />
-  </div>
-);
-                  
-                  {error && (
-                    <motion.p 
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      className="text-red-500 text-xs font-mono bg-red-500/10 p-4 rounded-2xl border border-red-500/20"
-                    >
-                      {error}
-                    </motion.p>
-                  )}
-
-                  <button
-                    type="submit"
-                    disabled={isSending}
-                    className="w-full py-5 bg-primary text-foreground rounded-2xl font-black flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-[0.98] transition-all group overflow-hidden disabled:opacity-50 disabled:cursor-not-allowed shadow-xl shadow-primary/20"
-                  >
-                    {isSending ? (
-                      <>
-                        <span className="uppercase tracking-widest text-sm">{t.form.sending}</span>
-                        <Loader2 className="w-5 h-5 animate-spin" />
-                      </>
-                    ) : (
-                      <>
-                        <span className="uppercase tracking-[0.2em] text-sm">{t.form.send}</span>
-                        <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform rtl:rotate-180" />
-                      </>
-                    )}
-                  </button>
-                </form>
-              )}
-            </div>
-          </motion.div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-const ContactLink = ({ icon, title, value, href, color }: any) => (
-  <a href={href} className="flex items-center gap-6 group p-4 rounded-3xl transition-all hover:bg-foreground/[0.03]">
-    <div className={`p-4 rounded-2xl transition-all group-hover:scale-110 group-hover:shadow-lg ${color}`}>
-      {icon}
-    </div>
-    <div>
-      <h4 className="text-[10px] text-foreground/40 uppercase font-black tracking-[0.2em] mb-1">{title}</h4>
-      <p className="text-xl font-bold group-hover:text-primary transition-all tracking-tight">{value}</p>
-    </div>
-  </a>
-);
-
-const SocialIcon = ({ icon, href }: any) => (
-  <a href={href} target="_blank" className="p-4 rounded-2xl bg-foreground/[0.03] border border-foreground/5 text-foreground/60 hover:text-primary hover:bg-foreground/[0.06] hover:-translate-y-1 transition-all shadow-sm">
-    {icon}
-  </a>
-);
-
-const FormInput = ({ label, placeholder, type = 'text', name }: any) => (
-  <div className="flex flex-col gap-3 group">
-    <label className="text-xs font-black text-foreground/40 uppercase tracking-[0.2em] ml-2 transition-colors group-focus-within:text-primary">{label}</label>
-    <input
-      name={name}
-      required
-      type={type}
-      placeholder={placeholder}
-      className="bg-foreground/[0.03] border-2 border-transparent rounded-full px-8 py-4 focus:outline-none focus:border-primary/50 focus:bg-background transition-all text-foreground/80 shadow-inner"
-    />
-  </div>
-);
-

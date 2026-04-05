@@ -1,124 +1,124 @@
 export const translations: any = {
   en: {
     nav: {
-      hero: 'Hero',
+      hero: 'Home',
       about: 'About',
       projects: 'Projects',
       skills: 'Skills',
       contact: 'Contact',
     },
     hero: {
-      status: 'Currently Available for Projects',
-      title: 'Achraf',
-      subtitle: 'El Hasnaoui',
-      tagline: 'Architecting the Future with Neural Intelligence.',
-      description: 'Full Stack Developer | Data Scientist | AI Engineer',
-      licence: 'Bachelor of Big Data & Intelligence Artificielle • Beni Mellal, Morocco',
+      status: 'Available for New Opportunities',
+      title: 'Badreddine',
+      subtitle: 'Ouakili',
+      tagline: 'Building Scalable Web Solutions with Modern Tech.',
+      description: 'Full Stack Web Developer | PHP & JavaScript Specialist',
+      licence: 'Professional License in Web & Mobile Software Engineering • Khouribga, Morocco',
       view_projects: 'View My Projects',
       download_cv: 'Download CV',
       say_hello: 'Say Hello',
       scroll: 'Scroll',
     },
     about: {
-      title_part1: 'Architecting ',
-      title_part2: 'Digital Minds',
-      description: "I am Achraf El Hasnaoui, a visionary developer at the intersection of web engineering and artificial intelligence. My goal is to build digital products that don't just work, but think.",
+      title_part1: 'Crafting ',
+      title_part2: 'Digital Solutions',
+      description: "I am Badreddine Ouakili, a passionate Full Stack Web Developer dedicated to building high-performance and scalable web applications. With expertise in modern technologies like React and Laravel, and professional experience in the healthcare sector, I bridge the gap between complex requirements and elegant code.",
       stats: {
         years: 'Years Experience',
         projects: 'Projects Completed',
-        success: 'Success Rate',
-        accuracy: 'AI Accuracy',
+        success: 'Client Satisfaction',
+        accuracy: 'Code Quality',
       },
       certifications: {
-        title: 'Certifications',
+        title: 'Education & Certs',
         items: [
-          'Cisco: Cybersecurity',
-          'IBM: Data Science',
-          'Cisco: Python',
-          'Google: Digital Marketing',
-          'Microsoft: MS Office',
-          'Cisco: Hardware Basics'
+          'Agile Methodologies',
+          'UI/UX Design (Figma)',
+          'API Integration',
+          'Database Management',
+          'Digital Development',
+          'Software Engineering'
         ]
       },
       timeline: [
         {
-          title: 'Bachelor – Big Data & AI',
-          subtitle: 'Higher School of Technology (EST)',
-          description: 'Specialized in machine learning, distributed systems, and data-driven intelligence. Fquih Ben Salah, Maroc.',
-          date: '2024 - 2025'
+          title: 'Professional License – Web & Mobile Engineering',
+          subtitle: 'ENSA Khouribga',
+          description: 'Advanced studies in software engineering, mobile development, and web architecture.',
+          date: '2023 - 2024'
         },
         {
           title: 'DTS – Digital Development (Web Full Stack)',
-          subtitle: 'ISTA NTIC',
-          description: 'Focused on full-stack web engineering, database architecture, and digital product design. Beni Mellal, Maroc.',
-          date: '2022 - 2024'
+          subtitle: 'ISTA Oued Zem',
+          description: 'Specialized in full-stack web engineering, database design, and modern frameworks.',
+          date: '2021 - 2023'
         },
         {
           title: 'Baccalaureate – Physical Sciences',
-          subtitle: 'Lycée Phosphate',
-          description: 'Strong foundation in mathematics and physics. Khouribga, Maroc.',
-          date: '2020 - 2021'
+          subtitle: 'Lycée Ibn Tofail',
+          description: 'Strong foundation in mathematics and analytical thinking. Oued Zem, Morocco.',
+          date: '2019 - 2020'
         }
       ],
       download_full_cv: 'Download Full CV',
     },
     projects: {
-      label: 'My Works',
+      label: 'My Work',
       title_part1: 'Featured ',
       title_part2: 'Projects',
       items: [
         {
-          title: 'AI SaaS Content Platform',
-          description: 'A cutting-edge SaaS for automatic content generation using FastAPI, OpenAI, and Next.js.',
-          tags: ['Next.js', 'FastAPI', 'OpenAI', 'PostgreSQL']
+          title: 'Internal Health Web Apps',
+          description: 'Developing and maintaining internal applications for the Ministry of Health to optimize medical workflows.',
+          tags: ['Laravel', 'React', 'MySQL', 'PHP']
         },
         {
-          title: 'Plant Disease Intelligence',
-          description: 'CNN-based deep learning system with 92% accuracy for automated diagnosis.',
-          tags: ['Python', 'TensorFlow', 'OpenCV', 'Laravel']
+          title: 'Staff Absence Management',
+          description: 'Digital system for managing medical and administrative staff attendance and absences.',
+          tags: ['PHP', 'JavaScript', 'Bootstrap', 'MySQL']
         },
         {
-          title: 'Smart Caisse E-commerce',
-          description: 'Full-stack e-commerce solution with responsive UI and WhatsApp integration.',
+          title: 'GMAO Biomedical System',
+          description: 'Biomedical maintenance management system for provincial hospital tracking and organization.',
           tags: ['Laravel', 'MySQL', 'Bootstrap', 'Agile']
         }
       ]
     },
     skills: {
-      title_part1: 'Advanced ',
+      title_part1: 'Technical ',
       title_part2: 'Expertise',
-      description: 'Merging software engineering with artificial intelligence to solve complex problems.',
+      description: 'Mastering modern web technologies to deliver robust and efficient digital products.',
       categories: [
         { 
-          name: 'AI & Data Science', 
-          items: ['TensorFlow', 'Keras', 'OpenCV', 'Deep Learning', 'Machine Learning', 'Data Mining'] 
+          name: 'Languages', 
+          items: ['PHP', 'JavaScript', 'Python', 'C', 'Java', 'HTML5/CSS3'] 
         },
         { 
-          name: 'Back-End Development', 
-          items: ['Laravel', 'FastAPI', 'Node.js', 'Flask', 'Django', 'Python', 'PHP', 'Java'] 
+          name: 'Frameworks', 
+          items: ['Laravel', 'React.js', 'Node.js', 'Bootstrap', 'Tailwind CSS'] 
         },
         { 
-          name: 'Front-End Development', 
-          items: ['React.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'HTML5/CSS3', 'JavaScript'] 
+          name: 'Databases', 
+          items: ['MySQL', 'MongoDB', 'PostgreSQL'] 
         },
         { 
-          name: 'Big Data & Storage', 
-          items: ['Hadoop', 'Kafka', 'MapReduce', 'HBase', 'PostgreSQL', 'MySQL', 'Neo4j'] 
+          name: 'Tools & Design', 
+          items: ['Git/GitHub', 'Docker', 'Postman', 'Figma (UI/UX)', 'WordPress'] 
         },
         { 
-          name: 'Data Visualisation', 
-          items: ['Power BI', 'Looker Studio', 'Python (Matplotlib)', 'R', 'DAX'] 
+          name: 'Methodologies', 
+          items: ['Agile (Scrum)', 'Kanban', 'Jira', 'UML'] 
         },
         { 
-          name: 'Tools & DevOps', 
-          items: ['Git/GitHub', 'Docker', 'Postman', 'Figma', 'Agile'] 
+          name: 'IT Support', 
+          items: ['Workflow Digitization', 'Technical Support', 'Database Management', 'API Automation'] 
         }
       ]
     },
     contact: {
       title_part1: "Let's ",
       title_part2: "Connect",
-      description: "Have a project in mind? Let's build something extraordinary together.",
+      description: "Ready to transform your ideas into reality? Let's discuss your next project.",
       email_me: 'Email Me',
       whatsapp: 'WhatsApp',
       form: {
@@ -130,11 +130,11 @@ export const translations: any = {
         send: 'Send Message',
         sending: 'Sending...',
         success: 'Message Received!',
-        back: "I'll get back to you within 24 hours.",
+        back: "I'll get back to you as soon as possible.",
         another: 'Send another message',
       }
     },
-    footer: '© 2026 Achraf El Hasnaoui • All Rights Reserved',
+    footer: '© 2026 Badreddine Ouakili • All Rights Reserved',
   },
   fr: {
     nav: {
@@ -145,56 +145,56 @@ export const translations: any = {
       contact: 'Contact',
     },
     hero: {
-      status: 'Disponible pour de nouveaux projets',
-      title: 'Achraf',
-      subtitle: 'El Hasnaoui',
-      tagline: "Concevoir le Futur avec l'Intelligence Neurale.",
-      description: 'Développeur Full Stack | Data Scientist | Ingénieur IA',
-      licence: 'Licence Big Data & Intelligence Artificielle • Beni Mellal, Maroc',
+      status: 'Disponible pour de nouvelles opportunités',
+      title: 'Badreddine',
+      subtitle: 'Ouakili',
+      tagline: 'Conception d’Applications Web Performantes et Évolutives.',
+      description: 'Développeur Web Full Stack | Spécialiste PHP & JavaScript',
+      licence: 'Licence Professionnelle Ingénierie Logiciel Web & Mobile • Khouribga, Maroc',
       view_projects: 'Voir mes projets',
       download_cv: 'Télécharger CV',
       say_hello: 'Dis Bonjour',
       scroll: 'Défiler',
     },
     about: {
-      title_part1: "Conception d'Esprits ",
-      title_part2: "Digitaux",
-      description: "Je suis Achraf El Hasnaoui, un développeur visionnaire à l'intersection de l'ingénierie web et de l'intelligence artificielle. Mon objectif est de créer des produits numériques qui ne se contentent pas de fonctionner, mais qui pensent.",
+      title_part1: "Création de ",
+      title_part2: "Solutions Digitales",
+      description: "Je suis Badreddine Ouakili, un développeur web Full Stack passionné par la conception d'applications web modernes. Avec une solide expérience en React et Laravel, et une expertise acquise dans le secteur de la santé, je m'efforce de transformer des idées complexes en solutions numériques fluides et efficaces.",
       stats: {
         years: "Années d'Expérience",
         projects: 'Projets Terminés',
-        success: 'Taux de Réussite',
-        accuracy: 'Précision IA',
+        success: 'Satisfaction Client',
+        accuracy: 'Qualité du Code',
       },
       certifications: {
-        title: 'Certifications',
+        title: 'Formation & Certifs',
         items: [
-          'Cisco: Cybersecurity',
-          'IBM: Data Science',
-          'Cisco: Python',
-          'Google: Digital Marketing',
-          'Microsoft: MS Office',
-          'Cisco: Hardware Basics'
+          'Méthodologies Agile',
+          'Design UI/UX (Figma)',
+          'Intégration API',
+          'Gestion de Bases de Données',
+          'Développement Digital',
+          'Ingénierie Logicielle'
         ]
       },
       timeline: [
         {
-          title: 'Licence – Big Data & IA',
-          subtitle: 'École Supérieure de Technologie (EST)',
-          description: 'Spécialisation en machine learning, systèmes distribués et intelligence basée sur les données. Fquih Ben Salah, Maroc.',
-          date: '2024 - 2025'
+          title: 'Licence Professionnelle – Ingénierie Logiciel',
+          subtitle: 'ENSA Khouribga',
+          description: 'Études approfondies en génie logiciel, développement mobile et architecture web.',
+          date: '2023 - 2024'
         },
         {
           title: 'DTS – Développement Digital (Full Stack)',
-          subtitle: 'ISTA NTIC',
-          description: 'Ingénierie web full-stack, architecture de base de données et conception de produits digitaux. Beni Mellal, Maroc.',
-          date: '2022 - 2024'
+          subtitle: 'ISTA Oued Zem',
+          description: 'Spécialisation en ingénierie web full-stack, conception de bases de données et frameworks modernes.',
+          date: '2021 - 2023'
         },
         {
           title: 'Baccalauréat – Sciences Physiques',
-          subtitle: 'Lycée Phosphate',
-          description: 'Base solide en mathématiques et physique. Khouribga, Maroc.',
-          date: '2020 - 2021'
+          subtitle: 'Lycée Ibn Tofail',
+          description: 'Base solide en mathématiques et esprit d’analyse. Oued Zem, Maroc.',
+          date: '2019 - 2020'
         }
       ],
       download_full_cv: 'Télécharger CV Complet',
@@ -205,57 +205,57 @@ export const translations: any = {
       title_part2: 'Phares',
       items: [
         {
-          title: 'Plateforme SaaS IA',
-          description: 'SaaS de pointe pour la génération automatique de contenu utilisant FastAPI, OpenAI et Next.js.',
-          tags: ['Next.js', 'FastAPI', 'OpenAI', 'PostgreSQL']
+          title: 'Applications Web Santé',
+          description: 'Développement et maintenance d’applications internes pour le Ministère de la Santé afin d’optimiser les workflows médicaux.',
+          tags: ['Laravel', 'React', 'MySQL', 'PHP']
         },
         {
-          title: 'Intelligence Maladies Plantes',
-          description: 'Système de deep learning basé sur CNN avec une précision de 92% pour le diagnostic automatisé.',
-          tags: ['Python', 'TensorFlow', 'OpenCV', 'Laravel']
+          title: 'Gestion des Absences',
+          description: 'Système numérique de gestion des présences et des absences du personnel médical et administratif.',
+          tags: ['PHP', 'JavaScript', 'Bootstrap', 'MySQL']
         },
         {
-          title: 'E-commerce Smart Caisse',
-          description: 'Solution e-commerce full-stack avec interface responsive et intégration WhatsApp.',
+          title: 'Système GMAO Biomédical',
+          description: 'Système de gestion de maintenance biomédicale pour le suivi et l’organisation hospitalière provinciale.',
           tags: ['Laravel', 'MySQL', 'Bootstrap', 'Agile']
         }
       ]
     },
     skills: {
       title_part1: 'Expertise ',
-      title_part2: 'Avancée',
-      description: "Fusionner l'ingénierie logicielle avec l'intelligence artificielle pour résoudre des problèmes complexes.",
+      title_part2: 'Technique',
+      description: "Maîtriser les technologies web modernes pour livrer des produits digitaux robustes et performants.",
       categories: [
         { 
-          name: 'IA & Data Science', 
-          items: ['TensorFlow', 'Keras', 'OpenCV', 'Deep Learning', 'Machine Learning', 'Data Mining'] 
+          name: 'Langages', 
+          items: ['PHP', 'JavaScript', 'Python', 'C', 'Java', 'HTML5/CSS3'] 
         },
         { 
-          name: 'Développement Back-End', 
-          items: ['Laravel', 'FastAPI', 'Node.js', 'Flask', 'Django', 'Python', 'PHP', 'Java'] 
+          name: 'Frameworks', 
+          items: ['Laravel', 'React.js', 'Node.js', 'Bootstrap', 'Tailwind CSS'] 
         },
         { 
-          name: 'Développement Front-End', 
-          items: ['React.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'HTML5/CSS3', 'JavaScript'] 
+          name: 'Bases de données', 
+          items: ['MySQL', 'MongoDB', 'PostgreSQL'] 
         },
         { 
-          name: 'Big Data & Stockage', 
-          items: ['Hadoop', 'Kafka', 'MapReduce', 'HBase', 'PostgreSQL', 'MySQL', 'Neo4j'] 
+          name: 'Outils & Design', 
+          items: ['Git/GitHub', 'Docker', 'Postman', 'Figma (UI/UX)', 'WordPress'] 
         },
         { 
-          name: 'Visualisation de Données', 
-          items: ['Power BI', 'Looker Studio', 'Python (Matplotlib)', 'R', 'DAX'] 
+          name: 'Méthodologies', 
+          items: ['Agile (Scrum)', 'Kanban', 'Jira', 'UML'] 
         },
         { 
-          name: 'Outils & DevOps', 
-          items: ['Git/GitHub', 'Docker', 'Postman', 'Figma', 'Agile'] 
+          name: 'Support IT', 
+          items: ['Digitalisation Workflows', 'Support Technique', 'Gestion de Données', 'Automatisation API'] 
         }
       ]
     },
     contact: {
       title_part1: 'Connectons- ',
       title_part2: 'nous',
-      description: 'Vous avez un projet en tête ? Créons quelque chose d\'extraordinaire ensemble.',
+      description: 'Prêt à transformer vos idées en réalité ? Discutons de votre prochain projet.',
       email_me: 'Envoyez-moi un email',
       whatsapp: 'WhatsApp',
       form: {
@@ -267,11 +267,11 @@ export const translations: any = {
         send: "Envoyer le message",
         sending: 'Envoi en cours...',
         success: 'Message Reçu !',
-        back: 'Je vous répondrai dans les 24 heures.',
+        back: 'Je vous répondrai dans les plus brefs délais.',
         another: 'Envoyer un autre message',
       }
     },
-    footer: '© 2026 Achraf El Hasnaoui • Tous droits réservés',
+    footer: '© 2026 Badreddine Ouakili • Tous droits réservés',
   },
   ar: {
     nav: {
@@ -282,12 +282,12 @@ export const translations: any = {
       contact: 'اتصل بي',
     },
     hero: {
-      status: 'متاح حالياً للمشاريع',
-      title: 'أشرف',
-      subtitle: 'الحسناوي',
-      tagline: 'أبني المستقبل بذكاء اصطناعي وحلول مبتكرة.',
-      description: 'مطور تطبيقات متكاملة | محلل بيانات | مهندس ذكاء اصطناعي',
-      licence: 'إجازة في البيانات الضخمة والذكاء الاصطناعي • بني ملال، المغرب',
+      status: 'متاح لفرص جديدة',
+      title: 'بدر الدين',
+      subtitle: 'وكيلـي',
+      tagline: 'بناء حلول ويب متطورة وقابلة للتوسع.',
+      description: 'مطور ويب متكامل | متخصص في PHP و JavaScript',
+      licence: 'إجازة مهنية في هندسة برمجيات الويب والهاتف • خريبكة، المغرب',
       view_projects: 'عرض مشاريعي',
       download_cv: 'تحميل السيرة الذاتية',
       say_hello: 'تواصل معي',
@@ -295,43 +295,43 @@ export const translations: any = {
     },
     about: {
       title_part1: 'هندسة ',
-      title_part2: 'العقول الرقمية',
-      description: 'أنا أشرف الحسناوي، مطور طموح في تقاطع هندسة البرمجيات والذكاء الاصطناعي. هدفي هو بناء منتجات رقمية لا تعمل فحسب، بل تفكر وتبتكر.',
+      title_part2: 'الحلول الرقمية',
+      description: 'أنا بدر الدين وكيلي، مطور ويب متكامل شغوف ببناء تطبيقات ويب عالية الأداء. مع خبرة في تقنيات React و Laravel وخبرة مهنية في قطاع الصحة، أسعى لتحويل المتطلبات المعقدة إلى كود برمجي أنيق وفعال.',
       stats: {
         years: 'سنوات الخبرة',
         projects: 'مشاريع مكتملة',
-        success: 'معدل النجاح',
-        accuracy: 'دقة الذكاء الاصطناعي',
+        success: 'رضا العملاء',
+        accuracy: 'جودة الكود',
       },
       certifications: {
-        title: 'الشهادات',
+        title: 'التعليم والمهارات',
         items: [
-          'Cisco: Cybersecurity',
-          'IBM: Data Science',
-          'Cisco: Python',
-          'Google: Digital Marketing',
-          'Microsoft: MS Office',
-          'Cisco: Hardware Basics'
+          'منهجيات Agile',
+          'تصميم UI/UX (Figma)',
+          'تكامل API',
+          'إدارة قواعد البيانات',
+          'التطوير الرقمي',
+          'هندسة البرمجيات'
         ]
       },
       timeline: [
         {
-          title: 'إجازة – البيانات الضخمة والذكاء الاصطناعي',
-          subtitle: 'المدرسة العليا للتكنولوجيا (EST)',
-          description: 'متخصص في التعلم الآلي، الأنظمة الموزعة، والذكاء القائم على البيانات. الفقيه بن صالح، المغرب.',
-          date: '2024 - 2025'
+          title: 'إجازة مهنية – هندسة البرمجيات',
+          subtitle: 'المدرسة الوطنية للعلوم التطبيقية - خريبكة',
+          description: 'دراسات متقدمة في هندسة البرمجيات، تطوير تطبيقات الهاتف، وهندسة الويب.',
+          date: '2023 - 2024'
         },
         {
           title: 'DTS – التطوير الرقمي (Full Stack)',
-          subtitle: 'ISTA NTIC',
-          description: 'هندسة الويب الشاملة، هندسة قواعد البيانات، وتصميم المنتجات الرقمية. بني ملال، المغرب.',
-          date: '2022 - 2024'
+          subtitle: 'ISTA واد زم',
+          description: 'متخصص في هندسة الويب الشاملة، تصميم قواعد البيانات، وأطر العمل الحديثة.',
+          date: '2021 - 2023'
         },
         {
           title: 'بكالوريا – علوم فيزيائية',
-          subtitle: 'ثانوية الفوسفاط',
-          description: 'أساس قوي في الرياضيات والفيزياء. خريبكة، المغرب.',
-          date: '2020 - 2021'
+          subtitle: 'ثانوية ابن طفيل',
+          description: 'أساس قوي في الرياضيات والتفكير التحليلي. واد زم، المغرب.',
+          date: '2019 - 2020'
         }
       ],
       download_full_cv: 'تحميل السيرة الكاملة',
@@ -342,57 +342,57 @@ export const translations: any = {
       title_part2: 'مميزة',
       items: [
         {
-          title: 'منصة SaaS للذكاء الاصطناعي',
-          description: 'منصة متطورة لتوليد المحتوى تلقائياً باستخدام FastAPI و OpenAI و Next.js.',
-          tags: ['Next.js', 'FastAPI', 'OpenAI', 'PostgreSQL']
+          title: 'تطبيقات ويب صحية داخلية',
+          description: 'تطوير وصيانة تطبيقات داخلية لوزارة الصحة لتحسين سير العمل الطبي.',
+          tags: ['Laravel', 'React', 'MySQL', 'PHP']
         },
         {
-          title: 'ذكاء أمراض النباتات',
-          description: 'نظام تعلم عميق يعتمد على CNN بدقة 92٪ للتشخيص الآلي.',
-          tags: ['Python', 'TensorFlow', 'OpenCV', 'Laravel']
+          title: 'نظام إدارة غيابات الموظفين',
+          description: 'نظام رقمي لإدارة حضور وغياب الطاقم الطبي والإداري.',
+          tags: ['PHP', 'JavaScript', 'Bootstrap', 'MySQL']
         },
         {
-          title: 'متجر Smart Caisse',
-          description: 'حل تجارة إلكترونية متكامل مع واجهة مستجيبة وتكامل WhatsApp.',
+          title: 'نظام GMAO للمعدات البيوطبية',
+          description: 'نظام إدارة صيانة المعدات البيوطبية للتتبع والتنظيم في المستشفى الإقليمي.',
           tags: ['Laravel', 'MySQL', 'Bootstrap', 'Agile']
         }
       ]
     },
     skills: {
       title_part1: 'خبرة ',
-      title_part2: 'متقدمة',
-      description: 'نجمع بين هندسة البرمجيات والذكاء الاصطناعي لابتكار حلول تقنية ذكية للمشكلات المعقدة.',
+      title_part2: 'تقنية',
+      description: 'إتقان تقنيات الويب الحديثة لتقديم منتجات رقمية قوية وفعالة.',
       categories: [
         { 
-          name: 'الذكاء الاصطناعي وعلوم البيانات', 
-          items: ['TensorFlow', 'Keras', 'OpenCV', 'Deep Learning', 'Machine Learning', 'Data Mining'] 
+          name: 'اللغات', 
+          items: ['PHP', 'JavaScript', 'Python', 'C', 'Java', 'HTML5/CSS3'] 
         },
         { 
-          name: 'تطوير الواجهات الخلفية', 
-          items: ['Laravel', 'FastAPI', 'Node.js', 'Flask', 'Django', 'Python', 'PHP', 'Java'] 
+          name: 'أطر العمل', 
+          items: ['Laravel', 'React.js', 'Node.js', 'Bootstrap', 'Tailwind CSS'] 
         },
         { 
-          name: 'تطوير الواجهة الأمامية', 
-          items: ['React.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'HTML5/CSS3', 'JavaScript'] 
+          name: 'قواعد البيانات', 
+          items: ['MySQL', 'MongoDB', 'PostgreSQL'] 
         },
         { 
-          name: 'البيانات الضخمة والتخزين', 
-          items: ['Hadoop', 'Kafka', 'MapReduce', 'HBase', 'PostgreSQL', 'MySQL', 'Neo4j'] 
+          name: 'الأدوات والتصميم', 
+          items: ['Git/GitHub', 'Docker', 'Postman', 'Figma', 'WordPress'] 
         },
         { 
-          name: 'تصوير البيانات', 
-          items: ['Power BI', 'Looker Studio', 'Python (Matplotlib)', 'R', 'DAX'] 
+          name: 'المنهجيات', 
+          items: ['Agile (Scrum)', 'Kanban', 'Jira', 'UML'] 
         },
         { 
-          name: 'الأدوات و DevOps', 
-          items: ['Git/GitHub', 'Docker', 'Postman', 'Figma', 'Agile'] 
+          name: 'الدعم التقني', 
+          items: ['رقمنة العمليات', 'الدعم الفني', 'إدارة البيانات', 'أتمتة API'] 
         }
       ]
     },
     contact: {
       title_part1: 'لنتو ',
       title_part2: 'واصل',
-      description: 'هل لديك مشروع في بالك؟ لنبني شيئاً استثنائياً معاً.',
+      description: 'هل أنت جاهز لتحويل أفكارك إلى واقع؟ لنناقش مشروعك القادم.',
       email_me: 'راسلني بريدياً',
       whatsapp: 'واتساب',
       form: {
@@ -404,10 +404,11 @@ export const translations: any = {
         send: 'إرسال الرسالة',
         sending: 'جاري الإرسال...',
         success: 'تم استلام الرسالة بنجاح!',
-        back: 'سأقوم بالرد عليك في غضون 24 ساعة.',
+        back: 'سأقوم بالرد عليك في أقرب وقت ممكن.',
         another: 'إرسال رسالة أخرى',
       }
     },
-    footer: '© 2026 أشرف الحسناوي • جميع الحقوق محفوظة',
+    footer: '© 2026 بدر الدين وكيلي • جميع الحقوق محفوظة',
   }
 };
+

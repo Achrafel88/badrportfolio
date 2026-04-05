@@ -13,19 +13,19 @@ export const Projects = () => {
     {
       ...t.items[0],
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800',
-      github: 'https://github.com/Achrafel88',
+      github: '#',
       demo: '#'
     },
     {
       ...t.items[1],
       image: 'https://images.unsplash.com/photo-1599148400620-8e1ff0bf28d8?auto=format&fit=crop&q=80&w=800',
-      github: 'https://github.com/Achrafel88',
+      github: '#',
       demo: '#'
     },
     {
       ...t.items[2],
       image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=800',
-      github: 'https://github.com/Achrafel88',
+      github: '#',
       demo: '#'
     }
   ];
